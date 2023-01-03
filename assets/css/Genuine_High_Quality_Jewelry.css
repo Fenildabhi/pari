@@ -1,0 +1,35 @@
+.Genuine-High-Quality-Jewelry-img{
+    background-image: url(../image/edu_banner_bg.png);
+    text-align: center;
+}
+.Genuine-High-Quality-Jewelry-img h1{
+    color: #575757;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 48px;
+    text-transform: capitalize;
+    padding: 10px 0 20px;
+}
+.Genuine-High-Quality-description h3{
+    text-transform: capitalize;
+    font-style: normal;
+    padding: 15px 0 10px 0;
+    color: #575757;
+    font-family: Canela!important;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: normal;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.Genuine-High-Quality-description p{
+    margin: 0 0 10px !important;
+    line-height: 22px;
+    font-size: 16px;
+    color: #575757;
+}
+.Genuine-High-Quality-description p a b{
+    color: #575757!important;
+    font-weight: bold!important;
+    border: none;
+}

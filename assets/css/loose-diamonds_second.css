@@ -1,0 +1,45 @@
+#more {display: none;}
+.THE_ALLUREZ_DIAMONDS_PROMISE{
+    text-align: center;
+}
+.THE_ALLUREZ_DIAMONDS_PROMISE h2{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #565656;
+    font-size: 26px;
+    line-height: 26px;
+    font-family: proxima_nova_rgregular!important;
+}
+.THE_ALLUREZ_DIAMONDS_PROMISE_INNER_DES h3{
+    color: #bba2aa;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 16px;
+    padding-top: 19px;
+}
+.THE_ALLUREZ_DIAMONDS_PROMISE_INNER_DES p{
+    color: #a5a5a5;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 0 19px;
+}
+
+.THE_ALLUREZ_DIAMONDS_PROMISE_INNER_DES a{
+    color: #7e7e7e;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 700;
+}
+.THE_ALLUREZ_DIAMONDS_PROMISE_INNER_DES a:hover{
+    color: #bba2aa;
+}
+.THE_ALLUREZ_DIAMONDS_PROMISE_INNER i{
+    font-size: 100px;
+}
+.THE_ALLUREZ_DIAMONDS_MAIN{
+    padding: 40px 0;
+    background-color: #fbfbfb;
+}

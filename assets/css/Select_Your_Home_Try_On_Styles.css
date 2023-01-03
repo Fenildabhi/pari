@@ -1,0 +1,56 @@
+.Home-Try-On-Styles{
+    text-align: center;
+}
+.Try-On-Styles-description{
+    margin: 30px 0px;
+}
+.Try-On-Styles-description p{
+    color: #a5a5a5;
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    padding-bottom: 30px !important;
+}
+.Try-On-Styles-description a{
+    border: 2px solid #bba1aa;
+    color: #bba1aa;
+    font-family: 'proxima_novasemibold';
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 11px 17px 8px 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.view-Real-Ring-Details  a{
+    text-decoration: underline !important;
+    color: #575757;
+    font-size: 12px;
+}
+.Real-Ring-Details{
+    text-align: center;
+    padding: 10px 10px;
+}
+.add-btn a{
+    margin-top: 10px;
+    background: #000000;
+    border: 1px solid #000000;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 10px 17px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+.Real-Ring-Details-name a{
+    color: #575757;
+}
+.listing-Real-Ring-Details:hover{
+    border-color: #e3e3e3;;
+}
+.listing-Real-Ring-Details{
+    border: 1px solid #fff;
+    padding: 10px 0px; 
+    margin-bottom: 20px;
+} 

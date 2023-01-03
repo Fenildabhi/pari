@@ -1,0 +1,223 @@
+.Jewelry-rings{
+    position: relative;
+}
+.Jewelry-rings-inner {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    width: 450px;
+    height: 100%;
+    text-align: center;
+}
+
+.Jewelry-rings-inner h1{
+    font-size: 54px;
+    color: #bba2aa;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.Jewelry-rings-inner p{
+    font-size: 16px;
+    color: #575757;
+    margin: 20px 0px !important;
+}
+.Jewelry-rings-inner a{
+    color: #363636;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #363636;
+    display: inline-block;
+    font-family: 'proxima_novasemibold' !important;
+    margin-bottom: 20px;
+}
+.Jewelry-rings-inner h1::before {
+    position: absolute;
+    width: 220px;
+    margin: 0 auto;
+    background: #000;
+    height: 2px;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 140px;
+    transition: all 0.4s ease-in-out;
+}
+.Jewelry-rings:hover .Jewelry-rings-inner h1::before  {
+    width: 300px;
+}
+.ring-collaction{
+    text-align: center;
+    margin: 30px 0px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #eaeaea;
+}
+.ring-collaction-inner h2{
+    color: #bba2aa;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin: 32px 0 0;
+    font-family: 'proxima_novasemibold' !important;
+}
+.ring-collaction-inner p{
+    color: #7e7e7e;
+    font-size: 19px;
+    line-height: 24px;
+    margin: 15px 15px 11px 15px;
+}
+.ring-collaction-inner .ring-shop-now{
+    color: #363636;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #363636;
+    display: inline-block;
+    font-family: 'proxima_novasemibold' !important;
+    margin-bottom: 30px;
+}
+.Engagement-Rings-inner-desc{
+    text-align: center;
+    align-items: center;
+}
+.Engagement-Rings-inner-desc h2{
+    color: #bba2aa;
+    font-size: 27px;
+    font-family: 'proxima_novasemibold' !important;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.Engagement-Rings-inner-desc p{
+    color: #7e7e7e;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 20px 0;
+}
+.Engagement-Rings-inner-desc .ring-shop-now{
+    color: #363636;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #363636;
+    display: inline-block;
+    font-family: 'proxima_novasemibold' !important;
+}
+.ring-options{
+    margin: 10px 0px;
+}
+.rings-option-img{
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.ring-part-option{
+    text-align: center;
+}
+.ring-part-option-desc h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #bba2aa;
+    text-transform: uppercase;
+    margin: 32px 0 0;
+    font-family: 'proxima_novasemibold' !important;
+}
+.ring-part-option-desc a{
+    color: #363636;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #363636;
+    display: inline-block;
+    font-family: 'proxima_novasemibold' !important;
+}
+.ring-option-plan{
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.shop-by-ring h2{
+    font-size: 48px;
+    color: #bba2aa;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.shop-by-ring-img img{
+    padding: 20px;
+}
+.shop-by-ring-img h3{
+    text-transform: capitalize;
+    color: #7e7e7e;
+    font-family: 'proxima_novasemibold'!important;
+    font-size: 23px;
+    word-break: break-all;
+}
+.shop-by-ring{
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.shop-by-stone{
+    font-size: 48px;
+    color: #bba2aa;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 53px;
+    font-weight: normal;
+    text-align: center;
+}
+.shop-by-stone-img img{
+    padding: 20px;
+}
+.shop-by-stone-img h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #7e7e7e;
+}
+.best-seller-new-arrival{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.new-arrival a{
+    font-size: 46px;
+    color: #bba2aa;
+}
+.new-arrival p{
+    color: #7e7e7e;
+    font-size: 21px;
+    line-height: 30px;
+    margin: 10px 0px !important;
+}
+.best-seller-inner a{
+    font-size: 46px;
+    color: #bba2aa;
+}
+.best-seller-inner p{
+    color: #7e7e7e;
+    font-size: 21px;
+    line-height: 30px;
+    margin: 10px 0px !important;
+}
+.new-arrival .s-arrivals{
+    margin: 10px 0px !important;
+    border-color: #808080;
+    background-color: #808080;
+    color: #ffffff !important;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 8px 17px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.best-seller-inner .s-sellers{
+    margin: 10px 0px !important;
+    border-color: #808080;
+    background-color: #808080;
+    color: #ffffff !important;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 8px 17px;
+    font-size: 14px;
+    font-weight: normal;
+}

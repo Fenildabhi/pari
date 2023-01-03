@@ -1,0 +1,2366 @@
+.navbar .megamenu{ padding: 1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+.pt-10{
+    padding-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none !important;
+}
+p{
+    margin: 0px !important;
+}
+.pr-none{
+    padding-right: 0px !important;
+}
+.pl-none{
+    padding-left: 0px !important;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Proxima Nova Rg';
+
+}
+.topsection{
+    background-color: #bba2aa;
+    padding: 5px 0px;  
+    
+}
+.topsection a{
+    color: white;
+    font-family: 'proxima_novasemibold';
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.topsection a:hover{
+    text-decoration: underline !important;
+    color: #575757 !important;
+}
+.second-top{
+    padding: 0px 30px;
+    height: 80px;
+
+}
+.header-icon{
+    padding: 0px 10px;
+}
+.header-text{
+    padding: 0px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.header-text a{
+    color: #575757 !important;
+    text-decoration: underline !important;
+}
+.second-top .header-icon a i{
+    color: #575757 !important;
+    
+}
+.second-top .header-icon a{
+    color: #575757 !important;
+    font-family: 'proxima_novasemibold';
+}
+.second-top .header-text a:hover{
+    text-decoration: none !important;
+}
+.second-top .logo-image img{
+    height: 70px;
+}
+.second-top .flag-icon a img{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.header-icon-second a i{
+    color: #575757 !important;
+}
+.header-icon-second{
+    padding: 0px 15px; 
+}
+.icon-list-left{
+    padding-top: 15px;
+}
+.icon-list-right{
+    padding-top: 15px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #575757 !important;
+}
+.menu-list{
+    background-color: #fff;
+    color: #000;
+}
+#main_nav .list-nav li{
+    padding: 0px 10px;
+}
+#main_nav .list-nav li a{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Proxima Nova Rg';
+
+}
+#main_nav{
+    border-top: solid 1px #ececec;
+    border-bottom: solid 1px #ececec;
+}
+.discount-part{
+    font-family: 'proxima_novasemibold'!important;
+    background: #E04820;
+    color: #FFF;
+    font-size: 24px;
+    padding: 5px 0px;
+}
+
+.discount-text p span {
+    
+    padding: 0 15px 0 10px;
+    font-size: 30px;
+    line-height: 20px;
+}
+.bg-main-part img{
+    max-width: 100%;
+}
+.baaner-inner{
+    position: relative;
+}
+.baaner-inner-content{
+    position: absolute;
+    top: -210px;
+    right: 10%;
+}
+.baaner-inner-content .inner-title{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.shop-now-button{
+    padding-top: 18px;
+}
+.shop-now-button .shop-now{
+    color: #000;
+    background: none;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    font-size: 18px;
+    line-height: 22px;
+    display: inline-block;
+}
+.inner-discription{
+    font-size: 20px;
+    line-height: 25px;
+}
+.logo-slider{
+    border-top: 2px solid #e4dadd;
+    border-bottom: 2px solid #e4dadd;
+}
+.main-baner{
+    position: relative;
+    margin: 4% 0px 2%;
+}
+.main-baner img{
+    max-width: 100%;
+    padding: 0px 15px;
+}
+.main-baner-inner{
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    text-align: center;
+}
+.main-baner-inner h2{
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 0px;
+    font-family: 'proxima_novalight'!important;
+    font-weight: 400;
+    text-transform: uppercase;
+   }
+.main-baner-inner h2 span{
+    display: block;
+}
+.main-baner-inner p{
+    color: #b3b3b3;
+}
+.manin-banner-button{
+    background: #808080;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    opacity: 1;
+    padding: 12px;
+    min-width: 197px;
+    margin: 13px 10px;
+    line-height: 24px;
+}
+.manin-banner-button-bottom{
+    background: #808080;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    opacity: 1;
+    padding: 12px;
+    min-width: 197px;
+    margin: 13px 10px;
+    line-height: 24px;
+}
+.manin-banner-button:hover{
+    color: #e1e1e1 !important;
+    opacity: 0.97;
+}
+.manin-banner-button-bottom:hover{
+    color: #e1e1e1 !important;
+    opacity: 0.97;
+}
+.jewellery-option img{
+    border-radius: 5px;
+}
+.jewellery-option h1{
+    line-height: 35px;
+    color: #bba2aa;
+    font-family: 'Canela';
+    padding: 30px 10px;
+}
+.jewellery-option h1:hover{
+    color: #000;
+}
+.Everyday-Essentials{
+    font-size: 52px; 
+    color: #bba2aa;
+    text-align: center;
+}
+.shop-all-option{
+    text-align: right;
+    padding: 15px 5px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.shop-all-option a{
+    font-size: 25px;
+    color: #363636;
+    font-weight: 400;
+}
+.shop-all-option a:hover{
+    color: #bba2aa;
+}
+.option-name p{
+    color: #7e7e7e;
+    font-size: 18px;
+    text-align: center;
+}
+.option-name h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #bba2aa;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.everyday-image img{
+    border-radius: 5px;
+}
+.everyday-image{
+    text-align: center;
+}
+.DIAMONDS a{
+    color: #d3d3d3;
+    font-size: 16px;
+}
+.DIAMONDS a:hover, .DIAMONDS a.active {
+    color: #bba2aa;
+}
+.shape h4{
+    color: #bba2aa;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+    margin: 0px 0px 15px;
+    font-size: 32px
+}
+.h-shape{
+    padding: 110px 0px 0px 0px;
+}
+.Diamonds-shape .item{
+    padding: 20px;
+}
+.Diamonds-shape .item h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #7e7e7e;
+    font-family: 'proxima_novasemibold'!important;
+    font-size: 17px;
+    word-break: break-all;
+    font-weight: 400;
+}
+.item{
+    transition: 0.5s;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+  .Diamonds-shape .item:hover {
+    transform: scale(1.1);
+
+  }
+  .Shop-now-hov{
+    color: #bba2aa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: none;
+    transition: 0.3s !important;
+   }
+
+  .Diamonds-shape .item:hover .Shop-now-hov{
+    display: block;
+  }
+  .Shop-by-Collection h2{
+    font-size: 52px;
+    color: #bba2aa;
+  }
+  .h-shape-1{
+    margin: 120px 0px 0px 0px;
+  }
+
+ .Shop-by-Collection h3{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #bba2aa;
+    margin-top: 20px;
+ }
+ .commitment h2{
+    color: #7f7f7f;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+ }
+.commitment i{
+    width: 54px;
+    height: 54px;
+    font-size: 54px;
+    color: #a5a5a5;
+}
+.commitment span{
+    display: block;
+    padding: 19px 0 17px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+    color: #a5a5a5;
+    min-height: 90px;
+}
+.commitment ul li{
+    padding: 0px 20px;
+    display: inline-block;
+    width: 14.28571428571429%;
+    padding-top: 15px;
+}   
+.commitment ul {
+    margin-top: 30px;
+    border-bottom: 3px solid #a5a5a5;
+    padding: 20px 0px 23px 0px;
+}
+.Give-Back img{
+    width: 250px;
+    height: 160px;
+}
+.Give-Back h3{
+    color: #bba2aa;
+    font-size: 47px;
+    font-family: 'canela' !important;
+    padding-top: 10px;
+}
+.Give-Back p{
+    text-transform: uppercase;
+    color: #565656;
+    font-size: 26px;
+    line-height: 26px;
+    font-family: 'proxima_nova_rgregular' !important;
+    color: #a5a5a5;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.Reviews{
+    background-color: #f1f1f1;
+    padding: 33px 0px 27px 0px;
+    text-align: center;
+}
+.Reviews h2{
+    font-size: 30px;
+    line-height: 30px;
+    color: #787878;
+    text-transform: none;
+}
+.Reviews p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #787878;
+    text-transform: none;
+    padding-bottom: 40px;
+}
+.Reviews img{
+    border-radius: 50%;
+}
+.strar-5{
+    padding-top: 20px;
+}
+.strar-5 i{
+
+    color: #bba2aa;
+}
+.Reviews h3{
+    font-size: 18px;
+    color: #656565;
+    font-style: normal;
+}
+.text::before{
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 25px;
+    height: 21px;
+    background: url(../image/test_l_cor.png);
+}
+.text::after{
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 25px;
+    height: 21px;
+    background: url(../image/test_l_cor.png);
+    transform: rotate(180deg);
+    vertical-align: middle;
+}
+.name{
+    font-size: 15px;
+    font-style: italic;
+}
+.more-read{
+    color: #a5a5a5;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    border-bottom: 2px solid #e8e8e8;
+}
+.more-read:hover{
+    color: #bba2aa;
+}
+.insta h2{
+    font-size: 50px;
+    color: #bba2aa !important;
+    text-transform: inherit;
+    margin: 40px 0;
+    line-height: 64px;
+    font-family: 'Canela' !important;
+    text-align: center;
+}
+.insta h2 a{
+    font-size: 50px;
+    color: #bba2aa;
+    text-transform: inherit;
+    margin: 40px 0;
+    line-height: 64px;
+}
+.insta h2 span{
+    width: 50px;
+    height: 50px;
+    font-size: inherit;
+    background: #bba2aa;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.insta h2 span i{
+    color: white;
+    font-size: 35px;
+}
+.home_featured{
+    background-color: #bba2aa;
+    text-align: center;
+    clear: both;
+    padding: 30px 0px;
+}
+.home_featured span{
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+.home_featured .OUR-BRAGGIN{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.company-name{
+    padding-bottom: 25px;
+}
+.newsletter{
+    background-color: #cccccc;
+    padding: 17px 0px;
+    min-height: 76px;
+}
+.newsletter label{
+    text-transform: uppercase;
+    color: #575757;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'proxima_novasemibold';
+    float: left;
+    padding-top: 12px;
+}
+.newsletter input{
+    margin-left: 10px;
+}
+.botton-gender .btn-1{
+    background: #808080;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 13px 26px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    opacity: 1;
+    transition: 0.3s;
+}
+.email-filed{
+    position: relative;
+}
+.botton-gender{
+    width: 284px;
+    padding: 0px 8px;
+    position: absolute;
+    right: 265px;
+    top: 0px;
+}
+.botton-gender a{
+    width: 100%;
+}
+.email-filed input{
+    height: 42px;
+    width: 25%;
+}
+.email-filed{
+    margin-left: 124px;
+}
+.footer{
+    background-color: #2d2d2d;
+    padding-top: 52px;
+    padding-bottom: 47px;
+}
+.footer ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    padding: 5px 0px;
+}
+.footer ul li a:hover{
+    color: #bba2aa;
+}
+.footer ul li a strong{
+    color: #bba2aa;
+}
+.footer h3{
+    text-transform: uppercase;
+    color: #bba2aa;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px 0px;
+}
+.footer ul{
+    padding-left: 0px;
+}
+.footer .online-account li a i{
+    font-size: 35px;
+}
+.footer .online-account .last-icon{
+    padding-top: 20px;
+}
+.discount-text p font{
+    padding-right: 5px;
+}
+.pluse-icon-collapse{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.collapse-data p{
+    color: #575757;;
+}
+.dropdown-1 h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+    color: #383736 !important;
+    text-transform: uppercase;
+    font-weight: bold!important;
+    padding-bottom: 10px;
+}
+.dropdown-1 ul{
+    padding-left: 0px;
+}
+.dropdown-1 ul li a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 26px;
+    font-size: 14px;
+    color: #363636;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+}
+.dropdown-1 ul li{
+    padding: 2px 0px !important;
+}
+.separator{
+    border-top: 1px solid #d4d4d4;
+    margin-top: 9px;
+    padding-bottom: 8px;
+    max-width: 100%;
+}
+.BY-STYLE .bold-link{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.dropdown-1 li a:hover{
+    color: #bba2aa;
+}
+.dropdown-design-1:hover .dropdoen-1-menu{
+    display: block;
+}
+
+
+/* ------------------------------------------------- */
+.dropdown-2 h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+    color: #383736 !important;
+    text-transform: uppercase;
+    font-weight: bold!important;
+    padding-bottom: 10px;
+}
+.dropdown-2 ul{
+    padding-left: 0px;
+}
+.dropdown-2 ul li a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 26px;
+    font-size: 14px;
+    color: #363636;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+}
+.dropdown-2 ul li{
+    padding: 2px 0px !important;
+}
+.dropdown-2 li a:hover{
+    color: #bba2aa;
+}
+.dropdown-design-2:hover .dropdoen-2-menu{
+    display: block;
+}
+
+/* ----------------------------------------------------------- */
+
+.dropdown-3 h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+    color: #383736 !important;
+    text-transform: uppercase;
+    font-weight: bold!important;
+    padding-bottom: 10px;
+}
+.dropdown-3 ul{
+    padding-left: 0px;
+}
+.dropdown-3 ul li a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 26px;
+    font-size: 14px;
+    color: #363636;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+}
+.dropdown-3 ul li{
+    padding: 2px 0px !important;
+}
+.dropdown-3 li a:hover{
+    color: #bba2aa;
+}
+.dropdown-design-3:hover .dropdoen-3-menu{
+    display: block;
+}
+/* -------------------------------------------- */
+.dropdown-4 .Natural-Diamonds li a img{
+    height: 28px;
+    width: 28px;
+}
+.diamond-list{
+    padding-left: 10px;
+}
+.dropdown-4 h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+    color: #383736 !important;
+    text-transform: uppercase;
+    font-weight: bold!important;
+    padding-bottom: 10px;
+}
+.dropdown-4 ul{
+    padding-left: 0px;
+}
+.dropdown-4 ul li a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 26px;
+    font-size: 14px;
+    color: #363636;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+}
+.dropdown-4 ul li{
+    padding: 2px 0px !important;
+}
+.dropdown-4 li a:hover{
+    color: #bba2aa;
+}
+.dropdown-design-4:hover .dropdoen-4-menu{
+    display: block;
+}
+/* ----------------------------------------------------------- */
+.dropdown-5 .Natural-Diamonds li a img{
+    height: 28px;
+    width: 28px;
+}
+.diamond-list{
+    padding-left: 10px;
+}
+.dropdown-5 h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+    color: #383736 !important;
+    text-transform: uppercase;
+    font-weight: bold!important;
+    padding-bottom: 10px;
+}
+.dropdown-5 ul{
+    padding-left: 0px;
+}
+.dropdown-5 ul li a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 26px;
+    font-size: 14px;
+    color: #363636;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+}
+.dropdown-5 ul li{
+    padding: 2px 0px !important;
+}
+.dropdown-5 li a:hover{
+    color: #bba2aa;
+}
+.diamond-list-gemstones{
+    font-size: 14px;
+    padding-left: 5px;
+}
+.dropdown-design-5:hover .dropdoen-5-menu{
+    display: block;
+}
+/* --------------------------------------------- */
+.dropdown-6 .Natural-Diamonds li a img{
+    height: 28px;
+    width: 28px;
+}
+.diamond-list{
+    padding-left: 10px;
+}
+.dropdown-6 h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+    color: #383736 !important;
+    text-transform: uppercase;
+    font-weight: bold!important;
+    padding-bottom: 10px;
+}
+.dropdown-6 ul{
+    padding-left: 0px;
+}
+.dropdown-6 ul li a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 26px;
+    font-size: 14px;
+    color: #363636;
+    line-height: 20px;
+    font-family: 'Proxima Nova Rg';
+}
+.dropdown-6 ul li{
+    padding: 2px 0px !important;
+}
+.dropdown-6 li a:hover{
+    color: #bba2aa;
+}
+.dropdown-design-6:hover .dropdoen-6-menu{
+    display: block;
+}
+
+.insta .instagram-image img{
+    height: 289px;
+    margin-bottom: 20px;
+}
+.SALE-table-data{
+    margin: auto;
+}
+.sale-body{
+    background-color:#E04820 !important;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 0px !important;
+}
+.SALE-table-data tr td{
+    padding: 0px 5px;
+}
+.sapborder{
+    border-top: 1px solid #fff;
+}
+.pluse-icon-collapse:hover{
+    color: white;
+}
+.shoping-icon{
+    position: relative;
+    padding-right: 10px;
+}
+.shoping-icon::before{
+    position: absolute;
+    content: "(0)";
+    top: -5px;
+    right: -10px;
+}
+.heart-icon{
+    position: relative;
+
+}
+.heart-icon::before{
+    position: absolute;
+    content: "(0)";
+    top: -5px;
+    right: -10px;
+}
+.header-icon-second img{
+    margin-left: 15px;
+}
+.pari-impex-insta{
+    padding-left: 5px;
+}
+.w3rcontainer{
+    border: 1px solid 
+ #cccfdb;
+    border-radius: 2px;
+ } 
+ .hover-underline-animation {
+   display: inline-block;
+   position: relative;
+   color: #575757;
+ }
+ 
+ .hover-underline-animation:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #575757;;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ .hover-underline-animation:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+
+ /* ----------------------------------------------- */
+ header{
+    /* position:fixed; */
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 35px;
+    /* height: 108px; */
+    background: #335C7D;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    transition: all 0.4s ease;
+  }
+  header.sticky {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 48px;
+    height: 48px;
+    background: #efc47D;
+ 
+  }
+  
+  ul{
+    display:inline-block;
+  }
+  /* li{
+    display:inline-block;
+    padding:0 40px;
+  }   */
+  
+  .file-status a{
+    color: #575757;
+  }
+  .file-status a:hover{
+    color: #bba2aa;
+  }
+  .file-status i{
+    font-size: 10px;
+    padding: 0px 5px;
+  }
+  .file-status{
+    align-items: center;
+  }
+  /* ----------------------------------------------Lab Grown Diamond Engagement Rings---------------------------------------------- */
+  /* .header-title-engagment h1{
+    font-size: 38px;
+    color: #bba2aa;
+    font-weight: normal;
+    line-height: normal;
+    padding: 30px 0px 20px;
+  }
+  .rings-image-sloat img{
+    height: 44px;
+    width: 44px;
+  } */
+  /* .dtl-step-inner::after{
+    content: "";
+    top: 50%;
+    position: absolute;
+    border-top: 35px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 9px solid #cccccc;
+    z-index: 1;
+    transform: translateY(-50%);
+    right: 15px;
+   }
+  .first-step-ring{
+    position: relative;
+  } */
+  /* .build_dtl_inner{
+    position: relative;
+  }
+  .inner-content-rings::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    width: 2px;
+    height: 62px;
+    background-color: #7e7e7e;
+    transform: translateY(-50%);
+  }
+  .build_hd_detail{
+    padding: 20px 0px;
+  }
+  .inner-content-rings{
+    text-align: center;
+  }
+  .inner-content-link a{
+    color: #575757;
+    text-decoration: underline !important;
+  }
+  .inner-content-link a:hover{
+    color: #bba2aa;
+  }
+  .hd{
+    font-size: 14px;
+    color: #575757;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 6px
+  }
+  .second-dropdown{
+    padding: 5px 0px;
+
+  }
+  .second-nav{
+    border-bottom: 2px solid #e2e2e2;
+  }
+  .second-dropdown .nav-item.dropdown{
+    padding: 0px 5px !important;
+  }
+  .second-dropdown .nav-item.dropdown a{
+    color: black;
+  } 
+
+
+
+
+
+ .Available-for-home input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+.Available-for-home label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 57px;
+	height: 28px;
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+.Available-for-home label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 15px;
+	height: 17px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+.Available-for-home input:checked + label {
+	background: #bada55;
+}
+
+.Available-for-home input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+.Available-for-home label:active:after {
+	width: 20px;
+}
+.Available-for-home input{
+    margin-left: 10px;
+}
+.Available-for-home{
+    padding: 10px 0px;
+}
+.Available-for-home .total-item{
+    float: right;
+    font-size: 13px;
+    color: #575757;
+    text-transform: none;
+}
+/* -------------------------Lab Grown Diamond Engagement Rings end----------------------------- */
+.diamonds-style{
+    padding-top:10px;
+}
+.diamonds-style .col{
+    padding: 10px 0px;
+}
+.style-type{
+    border: 1px solid transparent;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.style-type:hover{
+    border-color: black;
+}
+/* .diamonds-style .col:hover{
+    border: 1px solid black;
+} */
+.product-listing{
+    text-align: center;
+}
+.product-listing img{
+    max-height: 185px;
+}
+.product-reg a{
+    margin: 0px 2px;
+    padding: 0px;
+    font-size: 11px;
+    color: #575757;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
+.diamond-14k{
+    background-image: url(../image/14k.jpg);
+    text-align: center;
+}
+.diamond-14k-gold{
+    background-image: url(../image/15k.jpg);
+    text-align: center;
+}
+.diamond-14k-pink{
+    background-image: url(../image/14k-pink.jpg);
+    text-align: center;
+}
+.diamond-14k-metal{
+    background-image: url(../image/14k-metal.jpg);
+    text-align: center;
+}
+.diamond-14k-yellow-metal{
+    background-image: url(../image/18k-yellow-metal.jpg);
+    text-align: center;
+}
+.diamond-14k-rose-metal{
+    background-image: url(../image/14k-rose-metal.jpg);
+    text-align: center;
+}
+.diamond-14k-white-metal{
+    background-image: url(../image/white-metal-pa.jpg);
+    text-align: center;
+}
+.diamond-14k-platinum-metal{
+    background-image: url(../image/platinum-metal-pl.jpg);
+    text-align: center;
+}
+.product-image .product-reg{
+    text-align: center;
+}
+.diamond-listing-1 img, .diamond-listing-2 img{
+    width: 25px;
+}
+.diamond-tone{
+    text-align: center;
+}
+.name-filed{
+    text-align: center;
+    padding: 5px 0px;
+}
+.name-filed a{
+    color: #575757;
+}
+.listing-price{
+    text-align: center;
+    padding: 5px 0px;
+}
+.listing-price .listprice{
+    color: #575757;
+    text-decoration: line-through;
+    display: inline;
+    padding: 0 5px;
+}
+.listing-price .offprice{
+    color: #db2827;
+    display: inline;
+    padding: 0 5px;
+}
+.price-of-product{
+    text-align: center;
+    padding: 5px 0px;
+}
+.price-of-product span{
+    color: #bba2aa;
+    font-size: 18px;
+    font-weight: 600;
+}
+.listing-filed-row{
+    border-bottom: 1px solid #e3e3e3;;
+}
+.listing-filed-row{
+    padding: 20px 0px;
+}
+.product-listing-main{
+    border: 1px solid transparent;
+}
+.listing-filed-row .product-listing-main:hover{
+    /* border: 1px solid #e3e3e3; */
+    border-color: #e3e3e3;
+}
+.Engagement-Ring-design-description{
+    padding: 25px 0px;
+}
+.Questions-ans{
+    margin-bottom: 20px;
+}
+.Questions-ans h2{
+    font-size: 55px;
+    color: #bba2aa;
+    padding: 0px 0px 20px;
+    line-height: normal;
+    text-align: center;
+}
+.Questions-ans .discount-text a i{
+    color: #000;
+    padding-right: 15px;
+}
+.Questions-ans .discount-text a{
+    color: #000;
+    font-size: 22px;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    font-family: 'proxima_nova_rgregular' !important;
+    font-weight: 300;
+} */
+.dtl-step-inner-content{
+    font-size: 39px;
+    display: inline-block;
+    font-family: 'Canela' !important;
+    font-weight: 300;
+    width: 15%;
+    margin: 0 5px 0 0;
+    padding-right: 40px;
+}
+.loose-diamonds{
+    text-align: center;
+}
+.loose-diamonds h1{
+    color: #bba2aa;
+    font-size: 46px;
+    line-height: 46px;
+    margin: 0px;
+    font-weight: 400;
+}
+.help-sec .need-help{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 20px;
+    color: #7e7e7e;
+    text-transform: uppercase;
+}
+.help-sec li{
+    padding: 10px;
+}
+.help-sec li a {
+    color: #7e7e7e;
+}
+.help-sec li a i{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.loose-diamonds-menu-section{
+    padding: 10px 0px;
+}
+.loose-diamonds-menu-section ul{
+    margin: 0px auto;
+    padding: 0px;
+    width: 525px;
+    list-style: none;
+    border: 1px solid #cccccc;
+    border-right: 0px;
+    background-color: #fff;
+    display: table;
+    table-layout: fixed;
+}
+.loose-diamonds-menu-section ul li{
+    display: table-cell;
+    border-right: 1px solid #cccccc;
+    vertical-align: top;
+    padding: 0px;
+}
+.loose-diamonds-menu-section ul li a{
+    text-align: center;
+    display: block;
+    vertical-align: top;
+}
+.loose-diamonds-menu-section ul li a .dt_call{
+    display: table;
+    height: 56px;
+    width: 100%;
+}
+.loose-diamonds-menu-section ul li a .dt_call .dtable{
+    display: table-cell;
+    font-size: 14px;
+    line-height: 13px;
+    padding: 0px 10px;
+    color: #575757 !important;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.loose-diamonds-menu-section ul li:hover a .dt_call .dtable{
+    background-color: #bfa5ae;
+    color: #fff !important;
+}
+.ea-diamonds .sapelist ul{
+    display: table;
+    background-color: #fff;
+    table-layout: fixed;
+    border: none;
+}
+.ea-diamonds .sapelist ul li{
+    display: table-cell;
+    padding: 0px;
+    border: none;
+}
+.sapelist li a {
+    border: 1px solid transparent;
+    padding: 2px;
+    display: block;
+    text-align: center;
+}
+.sapelist li a:hover {
+    border-color: #000;
+}
+.sapelist li a span.img {
+    display: block;
+    text-align: center;
+}
+.sapelist li a span img {
+    max-width: 30px;
+}
+.sapelist li a .name-sapelist{
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    color: #575757;
+}
+.sapelistul li a:hover .name-sapelist{
+    color: #bba2aa !important;
+}
+.loose-diamonds-menu-section #myTab li span{
+    display: table-cell;
+    font-size: 14px;
+    line-height: 13px;
+    color: #575757 !important;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.loose-diamonds-menu-section .nav-tabs .nav-link {
+    margin-bottom: 0px;
+    background: 0 0;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+
+
+
+
+
+.range-slider {
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	height: 6em;
+}
+
+.range-slider svg,
+.range-slider input[type=range] {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+input[type=number] {
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 1.6em;
+	-moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+input[type=number]:invalid,
+input[type=number]:out-of-range {
+	border: 2px solid #ff6347;
+}
+
+input[type=range] {
+	-webkit-appearance: none;
+	width: 100%;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #2497e3;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+	background: #2497e3;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+	background: #2497e3;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 5px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: #2497e3;
+	border-radius: 1px;
+	box-shadow: none;
+	border: 0;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	z-index: 2;
+	position: relative;
+	box-shadow: 0px 0px 0px #000;
+	border: 1px solid #2497e3;
+	height: 18px;
+	width: 18px;
+	border-radius: 25px;
+	background: #a1d0ff;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -7px;
+}
+
+input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 5px;
+	cursor: pointer;
+	background: #2497e3;
+	border-radius: 1px;
+	box-shadow: none;
+	border: 0;
+}
+
+input[type=range]::-moz-range-thumb {
+	z-index: 2;
+	position: relative;
+	box-shadow: 0px 0px 0px #000;
+	border: 1px solid #2497e3;
+	height: 18px;
+	width: 18px;
+	border-radius: 25px;
+	background: #a1d0ff;
+	cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+	width: 100%;
+	height: 5px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	color: transparent;
+}
+
+input[type=range]::-ms-fill-lower,
+input[type=range]::-ms-fill-upper {
+	background: #2497e3;
+	border-radius: 1px;
+	box-shadow: none;
+	border: 0;
+}
+
+input[type=range]::-ms-thumb {
+	z-index: 2;
+	position: relative;
+	box-shadow: 0px 0px 0px #000;
+	border: 1px solid #2497e3;
+	height: 18px;
+	width: 18px;
+	border-radius: 25px;
+	background: #a1d0ff;
+	cursor: pointer;
+}
+
+ 
+.table-data-loose-diamonds tbody tr td, thead tr th{
+    text-align: center;
+    vertical-align: middle;
+}
+.table-data-loose-diamonds tbody tr td a img{
+    height: 45px;
+    width: 45px;
+
+}
+.table-data-loose-diamonds tbody tr td a{
+    color: #5e5e5e !important;
+}
+.table-data-loose-diamonds tbody tr .balance-icon i{
+font-size: 30px;
+}
+.table-data-loose-diamonds tbody tr .heart-icon-table i{
+    font-size: 25px;
+}
+.table-data-loose-diamonds tbody tr .eye-icon i{
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.loose-diamonds-menu-section #myTabContent{
+    padding-top: 30px;
+}
+#heart {
+    color: grey;  
+}
+  
+#heart.red {
+    color: red;
+}
+.loose-diamonds-menu-section #myTab li .nav-link{
+    height: 71px;
+    width: 104px;
+    display: flex;
+    align-items: center;    
+    color: #575757;
+}
+.loose-diamonds-menu-section #myTab li{
+    vertical-align: middle;
+    text-align: center;
+}
+.loose-diamonds-menu-section #myTab li .active{
+    background-color: #bba2aa;
+    color: white !important;
+}
+.heart-icon-table i:hover{
+    cursor: pointer;
+}
+.eye-icon:hover{
+    cursor: pointer;
+}
+.loose-diamonds-menu-section .cut-input-filed #myTab li .nav-link{
+    height: 31px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;    
+    color: #575757;
+}
+.loose-diamonds-menu-section .polish-input-filed #myTab li .nav-link{
+    height: 31px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;    
+    color: #575757;
+}
+.loose-diamonds-menu-section .Symmetry-input-filed #myTab li .nav-link{
+    height: 31px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;    
+    color: #575757;
+}
+.loose-diamonds-menu-section .Fluoresc-input-filed #myTab li .nav-link{
+    height: 31px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;    
+    color: #575757;
+}
+
+.loose-diamonds-menu-section .color-input-filed #myTab li .nav-link{
+    height: 31px;
+    width: 65px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;    
+    color: #575757;
+}
+.loose-diamonds-menu-section .Origin-input-filed #myTab li .nav-link{
+    height: 31px;
+    width: 262px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;    
+    color: #575757;
+}
+.loose-diamonds-menu-section .Clarity-input-filed #myTab li .nav-link{
+    height: 31px;
+    width: 58px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;    
+    color: #575757;
+}
+.carat-cut-filed, .lab-color-filed, .origin-Clarity-filed, .Polish-table-filed, .Symmetry-Depth-filed, .Fluoresc-Ratio-filed{
+    margin: 0px 0px 25px 0px;
+}
+.origin-Clarity-filed img{
+    height: 10px;
+    width: 15px;
+}
+.Item-Number-Ratio-filed .Item-Number-input-filed{
+    width: 525px;
+}
+.Item-Number-input-filed .form-control:focus{
+    border-color: black;
+    box-shadow: none;
+}
+.Item-Number-input-filed .btn-outline-primary:focus{
+    border-color: black;
+    box-shadow: none;
+}
+.Item-Number-input-filed .btn-outline-primary{
+    background: #bca2ab;
+    border: 1px solid #bca2ab;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0px !important;
+}
+.Item-Number-input-filed .btn-outline-primary:hover{
+    color: #fff !important;
+    background: #808080;
+    border-color: #808080;
+}
+.btn-outline-primary:active:focus {
+    box-shadow: none !important;
+}
+#contact .color-diamonds ul, #contact .color-diamonds ul li{
+    border: none;
+}
+#contact .color-diamonds ul li{
+    width: 107px;
+    border: 1px solid transparent;
+}
+#contact .color-diamonds ul li .name-sapelist{
+    color: #575757;
+}
+#contact .color-diamonds ul li:hover{
+    border-color: #ccc;
+}
+#contact .color-diamonds .name-sapelist{
+    padding-top: 10px;
+}
+#contact .color-diamonds ul li a{
+    display: grid;
+}
+
+.loose-diamonds-menu-section #collapseExample .card {
+    border: none;
+    padding: 0px;
+}   
+.card{
+    border: none !important;
+}
+.loose-diamonds-menu-section #myTabContent .Advanced-Search-Options i{
+    padding-left: 5px;
+}
+.loose-diamonds-menu-section #myTabContent .Advanced-Search-Options{
+    color: #565656;
+
+}
+.loose-diamonds-menu-section #myTabContent .Advanced-Search-Options:hover{
+    color: #bba2aa;
+}
+.loose-diamonds-menu-section .loose-diamounds-collapse{
+    margin: 15px 0px !important;
+}
+.table-short-option .option-table li{
+    float: left;
+    padding-right: 5px;
+    border-right: none;
+}
+.table-short-option .option-table{
+    border: none;
+    display: table-row;
+}
+.table-short-option .option-table li a{
+    float: left;
+    color: #5e5e5e;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'proxima_nova_rgregular';
+    border: 1px solid #cccccc;
+    border-bottom: 0px;
+    text-transform: uppercase;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    padding: 12px 21px 9px;
+}
+.table-short-option .option-table li .active {
+    color: #fff !important;
+    background-color: #bba2aa;
+    border-color: #bba2aa;
+}
+.change-view .change-view-icon{
+        border: none;
+}
+.change-view .change-view-icon li{
+    border-right: none;
+    display: inline-flex;
+}
+#Gemstones .color-diamonds ul, #Gemstones .color-diamonds ul li{
+    border: none;
+}
+#Gemstones .color-diamonds ul li{
+    width: 107px;
+    border: 1px solid transparent;
+}
+#Gemstones .color-diamonds ul li .name-sapelist{
+    color: #575757;
+}
+#Gemstones .color-diamonds ul li:hover{
+    border-color: #ccc;
+}
+#Gemstones .color-diamonds .name-sapelist{
+    padding-top: 10px;
+}
+#Gemstones .color-diamonds ul li a{
+    display: grid;
+}
+
+.Intensity-Carat{
+    margin: 0px 0px 25px 0px;
+}
+.loose-diamonds-menu-section .Intensity-Carat #myTab li .nav-link {
+    height: 31px;
+    width: 131px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    color: #575757;
+}
+.loose-diamonds-menu-section .lab-Polish-filed #myTab li .nav-link {
+    height: 31px;
+    width: 104px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    color: #575757;
+}
+
+.loose-diamonds-menu-section .lab-Polish-filed .polish-input-filed-fancy  #myTab li .nav-link {
+    height: 31px;
+    width: 86px;
+    justify-content: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    color: #575757;
+}
+.lab-Polish-filed{
+    margin: 0px 0px 25px 0px;
+}
+.Shape-Price-filed{
+    margin: 0px 0px 25px 0px; 
+}
+.main-baner img{
+    width: 100%;
+}
+.ea-diamonds .container{
+    padding: 0px;
+}
+.pari_impex_logo{
+    padding-top: 10px;
+}
+#Gemstones-tab, #Moissanites-tab{
+    padding-left: 12px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+.main-page{
+    display: inline-block !important;
+}
+.blue-link{
+    color: #575757!important;
+    border: none;
+}
+.blue-link:hover {
+    text-decoration: underline !important;
+    color: #bba2aa!important;
+}
+.fa-window-minimize{
+    padding-bottom: 15px;
+}
+.build_hd_detail .Lab-Grown-description{
+    color: #a5a5a5;
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.lab_diamond_footer_desc, .gemstone_diamond_footer_desc{
+    padding: 30px 0px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+.design-your-own h2{
+    padding-bottom: 15px;
+    font-size: 50px;
+    line-height: normal;
+    color: #575757;
+}
+.design-your-own h2 span{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: #575757;
+    font-style: normal;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.diamond-back{
+    background: #494949;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: -6px;
+}
+.design-your-own-moissanite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.design-your-own-moissanite li a span{
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #575757;
+}
+
+.Top-Twenty-main-banner{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.main_banner_top_twenty{
+    position: relative;
+}
+.twenty_banner_inner{
+    width: 490px;
+    text-align: center;
+    float: left;
+    width: 558px/*420px*/;
+    display: table;
+    height: 100%;
+    color: #fff;
+}
+.twenty_banner_inner p{
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 10px;
+    margin: 3% 0 7% !important;
+}
+.twenty_banner_inner h1{
+    font-size: 54px;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.twenty_banner_inner h1::before{
+    position: absolute;
+    width: 220px;
+    margin: 0 auto;
+    background: #fff;
+    height: 2px;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    transition: all 0.4s ease-in-out;
+}
+.Top_Twenty_tab ul{
+    justify-content: center;
+    border: none !important;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #c2c2c2 !important;
+}
+.Top-Twenty-main-banner:hover .twenty_banner_inner h1::before{
+    width: 300px;
+}
+.Top_Twenty_tab .Top_Twenty_tab_list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: none !important;
+    margin: auto;
+}
+.Top_Twenty_tab .Top_Twenty_tab_list .Top_Twenty_tab_list_name{
+    color: #495057;
+}
+.tab_top_twenty_link_list{
+    width: 33% !important;
+}
+.top_text_design{
+    font-size: 20px;
+    line-height: 36px;
+    color: #7e7e7e;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.list-of-rings{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box-top-nolist {
+    font-size: 120px;
+    color: #bba2aa;
+    text-align: center;
+    width: 150px;
+    font-weight: 300;
+    left: 120px;
+}
+.list-of-rings img{
+    width: 50%;
+}
+.ring_name a{
+    font-size: 36px;
+    color: #bba2aa;
+    line-height: 44px;
+}
+.righttext p{
+    font-size: 20px;
+}
+.Design_Your_Own span{
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-top: 0;
+}
+.Twisted-Infinity-Ring h1{
+    font-size: 120px;
+    color: #bba2aa;
+    font-family: 'Canela' !important;
+}
+.Twisted-Infinity-Ring h2{
+    font-size: 36px;
+    color: #bba2aa;
+    line-height: 44px;
+}
+.Twisted-Infinity-Ring p{
+    font-size: 20px;
+    color: #7e7e7e;
+    line-height: 32px;
+}
+.Twisted-Infinity-Ring a{
+    background: #fff;
+    padding: 10px 0;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: underline !important;
+    margin-top: 0;
+    display: block;
+}
+.Twisted-Infinity-Ring a:hover {
+    text-decoration: none !important;
+    color: #000;
+}
+.We-Create-It h2{
+    font-size: 36px;
+    color: #bba2aa;
+    line-height: 44px;
+}
+.We-Create-It p{
+    font-size: 20px;
+    color: #7e7e7e;
+    line-height: 32px;
+    margin-bottom: 19px;
+}
+.We-Create-It a{
+    background: #fff;
+    padding: 10px 0;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: underline !important;
+    margin-top: 0;
+}
+.We-Create-It a:hover {
+    text-decoration: none !important;
+    color: #000;
+}
+.mt14k{
+    background-image: url(../image/white-metal.jpg);
+}
+.Yellow-Gold14k{
+    background-image: url(../image/yellow-metal.jpg);
+}
+.rose-mt14k{
+    background-image: url(../image/rose-metal.jpg);
+}
+.platina-mt14k{
+    background-image: url(../image/platinum-metal.jpg);
+}
+.dmmetal a{
+    margin: 0px 2px;
+    padding: 0px;
+    font-size: 11px;
+    color: #575757;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.dmmetal {
+    margin: 10px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    min-height: 20px;
+    padding-bottom: 30px;
+}
+.dmmetal a:hover{
+    border: 1px solid #ffffff !important;
+    color: #575757!important;
+    cursor: default;
+}
+
+.Top_Twenty_tab_list.active:after {
+    background: #bba2aa;
+    height: 5px;
+    position: absolute;
+    bottom: -2px;
+    content: "";
+    border: none;
+    width: auto;
+}
+.Top_Twenty_tab_list.active:after {
+    content: "";
+    /* border-style: solid;
+    border-width: 0px 25px 0 25px; */
+    border-color:#bba2aa transparent transparent transparent;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 180px;
+    margin: 0 auto;
+}
+/* .active-line{
+    border: 1px solid black;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+/* ------------------------------------------------------------------------------- */
+.Your-Vision-We-Create-it{
+    position: relative;
+}
+.cat_banner_overlay h1{
+    font-size: 36px;
+    line-height: 36px;
+    position: relative;
+    color: #575757;
+    padding-bottom: 5%;
+    text-transform: capitalize;
+    font-family: 'Canela' !important;
+    font-style: normal;
+    font-weight: 300;
+}
+.cat_banner_overlay p{
+    margin-bottom: 3% !important;
+    font-size: 16px;
+    color: #575757;
+    margin: 3% 0 7% !important;
+}
+.cat_banner_overlay{
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    width: 558px/*420px*/;
+    display: table;
+    height: 100%;
+}
+.cat_banner_overlay p a{
+    color: #575757;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.cat_banner_overlay h1::before{
+    position: absolute;
+    width: 220px;
+    margin: 0 auto;
+    background: #575757;;
+    height: 2px;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    transition: all 0.4s ease-in-out;
+}
+.Your-Vision-We-Create-it-main:hover .cat_banner_overlay h1::before{
+    width: 300px;
+}
+.Your-Vision-We-Create-it-menu{
+    border-bottom: 1px solid #cccccc;
+}
+.Your-Vision-We-Create-it-menu ul{
+    justify-content: center;
+}
+.Your-Vision-We-Create-it-menu ul li{
+    padding: 20px 30px;
+}
+.Your-Vision-We-Create-it-menu ul li:not(:last-child){
+    border-right: 1px solid #cccccc;
+}
+.Your-Vision-We-Create-it-menu-tab{
+    padding-bottom: 30px;
+}
+.tab-vision-we-create{
+    display: flex;
+    margin-bottom: 0px;
+}
+.Request_Your_Design h5{
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+.your-design-numbar{
+    max-height: 150px;    
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 140px;
+    width: 12%;
+    color: #5b5a58;
+    text-align: center;
+    position: relative;
+    background-color: #f1f1f1;
+    float: left;
+}
+.your-design-numbar:before {
+    border-bottom: 28px solid transparent;
+    border-left: 22px solid #f1f1f1;
+    border-top: 28px solid transparent;
+    content: "";
+    display: inline-block;
+    right: -21px;
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+}
+.Upload_your_jewelry_design .file-input-filed{
+    padding-left: 50px;
+}
+.Upload_your_jewelry_design{
+    border-bottom: 1px solid #e8e8e8;
+    padding: 28px 0px;
+}
+.Metal-option ul li label{
+    white-space: nowrap;
+}
+.Metal-option ul{
+    padding-left: 0px;
+}
+.Request_Your_Design h5{
+    padding-top: 50px;
+}
+.file-input-filed .Design-note{
+    display: grid;
+}
+.btn-last-filed{
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    width: 185px;
+    border-color: #808080;
+    background: #808080;
+    padding: 10px 60px;
+    top: -13px;
+
+}
+.last-submit-btn{
+    text-align: center;
+}
+.last-btn-line{
+    text-align: center;
+}
+.last-btn-line a{
+    color: #575757;
+    text-decoration: underline !important;
+} 
+.Recent-Projects{
+    background-color: #fef8ef;
+    padding: 28px 0px;
+}
+.Recent-Projects-header{
+    text-align: center;
+}
+.Recent-Projects-image{
+    padding: 20px 0px;
+}
+.cut-experience-tabs{
+    border-bottom: 1px solid #e5e4e4;
+}
+.cut-experience-tabs .experience-tabs-header h2{
+    margin: 0px;
+    padding: 20px 0px;
+    color: #575757;
+    font-size: 24px;
+    font-family: 'Canela' !important;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+}
+.Custom-Experience-description {
+    padding: 15px 0px;
+}
+.Custom-Experience-description p{
+    margin-top: 15px !important;
+    padding-top: 14px;
+    color: #575757;
+    font-size: 14px;
+    min-height: 71px;
+}
+.Custom-Experience-description a{
+    color: #575757;
+    font-family: 'Canela'!important;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+.popup-close-icon{
+    text-align: end;
+}
+.popup-close-icon button{
+    width: 16px;
+    height: 16px;
+    padding: 9px;
+    border: 1px solid #7c7c7c;
+    text-align: center;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    z-index: 9;
+}
+.listing-modal .modal-body{
+    padding: 21px 50px 36px 50px;
+}
+.Add-more-button a{
+    background: #bca2ab;
+    border: 1px solid #bca2ab;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.Add-more-button a:hover{
+    color: #fff !important;
+    background: #808080;
+    border-color: #808080;
+}
+.view-shopping-button a{
+    color: #bca2ab;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #bca2ab;
+    line-height: 18px;
+    font-size: 14px;
+    padding: 15px 25px;
+    width: 100%;
+}
+.view-shopping-button a:hover{
+    color: #fff !important;
+    background: #808080;
+    border-color: #808080;
+}
+.home-try{
+    color: #575757;
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: 'proxima_nova_rgregular' !important;
+    text-decoration-color: #c0c0c0;
+}
+.home-try:hover{ 
+    color: #bca2ab;
+}
+.listing-popup-des{
+    margin-bottom: 20px !important;
+}

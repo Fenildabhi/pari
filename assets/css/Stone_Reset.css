@@ -1,0 +1,149 @@
+.Stone-Reset{
+    position: absolute;
+    left: 0px;
+    top: 107px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.main_banner_Stone_Reset{
+    position: relative;
+}
+
+.Stone-Reset-inner{
+    width: 490px;
+    text-align: center;
+    float: left;
+    width: 558px/*420px*/;
+    display: table;
+    height: 100%;
+    color: #bba2aa;;
+}
+.Stone-Reset-inner p{
+    color: #7e7e7e;;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 10px;
+    margin: 3% 0 7% !important;
+}
+
+.new-life-jewellery h3{
+    color: #bba2aa;
+    font-size: 40px;
+    line-height: normal;
+    font-weight: normal;
+    margin:  40px 0px;
+    text-align: center;
+}
+.YOUR-STONE,.YOUR-STONE-1{
+    text-align: center;
+    position: relative;
+}
+.YOUR-STONE h3,.YOUR-STONE-1 h3{
+    color: #7e7e7e;
+    font-family: 'proxima_novasemibold'!important;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.1px;
+    padding: 0px;
+    height: 60px;
+}
+.YOUR-STONE h3 span,.YOUR-STONE-1 h3 span{
+    display: block;
+    font-family: 'proxima_nova_rgregular'!important;
+    font-size: 16px;
+}
+.YOUR-STONE:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url(../image/download.png);
+    width: 49px;
+    height: 212px;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.new-life-jewellery-description .new-life-jewellery-description-info{
+    color: #7e7e7e;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0px 0px 50px !important;
+}
+.new-life-jewellery-description{
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 50px;
+} 
+.new-life-jewellery-description .start-now-btn{
+    margin: 0px;
+    font-size: 24px;
+    font-family: 'proxima_novasemibold'!important;
+    width: auto;
+    padding: 10px 125px;
+    border-color: #808080;
+    background: #808080;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.new-life-jewellery-description .start-now-btn span{
+    font-size: 24px;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    text-transform: uppercase;
+}
+.collapes-strat-btn{
+    font-size: 18px;
+    line-height: 18px;
+}
+.your-design-xline{
+    border-bottom: 1px solid #e8e8e8;
+    padding: 28px 0px;
+}
+#strat-now-btn .request-stone-reset{
+    text-align: center;
+}
+.Diamond-Shine .title-shine{
+    width: 23%;
+    line-height: 60px;
+    padding: 0px 15px 0px 0px;
+    margin: 0px;
+    text-align: right;
+    color: #bba2aa;
+    font-size: 40px;
+}
+.shine-img .YOUR-STONE{
+    margin-right: 50px;
+}
+.pari-Promise{
+    text-align: center;
+}
+.pari-Promise h2{
+    margin-bottom: 30px;
+    color: #bba2aa;
+    font-size: 40px;
+    line-height: normal;
+    font-weight: normal;
+    margin: 0px 0px 40px;
+    font-family: 'Canela' !important;
+}
+.pari-Promise span{
+    display: block;
+    color: #a5a5a5;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 10px 0px 0px;
+}
+.pari-Promise {
+    margin-bottom: 50px;
+}
+.pari-Promise a:hover .pari-Promise span{
+    color: #bba2aa;;
+}

@@ -1,0 +1,72 @@
+.Home-Ring-Preview-description{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.Home-Ring-Preview-description h1{
+    font-size: 55px;
+    color: #bba2aa;
+    padding: 0px 0px 20px;
+    line-height: normal;
+    text-align: center;
+}
+.description-ring-pre{
+    font-size: 26px;
+    color: #a5a5a5;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 15px !important;
+}
+.description-ring-pre-1{
+    font-size: 17px;
+    color: #a5a5a5;
+    line-height: 24px;
+    padding: 0px 0px 15px;
+    text-align: center;
+}
+.Home-Ring-Preview-description a{
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    text-decoration: underline !important;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+.thumb_detail{
+    text-align: center;
+}
+.select-ring-design{
+    text-align: center;
+}
+.thumb_detail h3{
+    font-size: 46px;
+    color: #bba2aa;
+    line-height: 51px;
+    padding: 0px 0px 10px;
+}
+.thumb_detail p{
+    font-size: 20px;
+    color: #a5a5a5;
+    line-height: 28px;
+}
+.Make-Sure-second-header{
+    text-align: center;
+}
+.Make-Sure-second-header h4{
+    font-size: 66px;
+    color: #bba2aa;
+    letter-spacing: 0.1px;
+    padding: 0px 0px 40px;
+}
+.Make-Sure-second-header a{
+    font-size: 26px;
+    color: #bba2aa;
+    letter-spacing: 0.2px;
+    border: 2px solid #bba2aa;
+    text-transform: uppercase;
+    padding: 15px 49px 13px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.Home-Ring-Preview-description a:hover{
+    color: #bba2aa;
+}
