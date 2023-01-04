@@ -1,3 +1,9 @@
+
+    $(function(){
+        $("#header").load("header.html"); 
+          $("#footer").load("footer.html"); 
+        });
+
 $(function(){
   $('a').click(function(){
       $('a.active-line').removeClass('active-line');
