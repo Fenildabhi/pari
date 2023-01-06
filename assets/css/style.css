@@ -35,6 +35,12 @@ p{
 .pl-none{
     padding-left: 0px !important;
 }
+.pr-xl{
+    padding-right: 10px;
+}
+.pl-xl{
+    padding-left: 10px;
+}
 img{
     max-width: 100%;
 }

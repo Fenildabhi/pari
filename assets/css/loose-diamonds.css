@@ -1,5 +1,5 @@
-.table-data-loose-diamonds .listing-table{
-    border-top: 1px solid black;
+.listing-icon-tab #nav-tab{
+    border-bottom: none;
 }
 .listing-icon-tab{
     display: flex;
@@ -10,4 +10,25 @@
     width: 50px;
     margin: auto;
     text-align: center;
+}
+.big-list-view{
+    text-align: center;
+}
+.list-icon-main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.list-icon-main i{
+    padding: 4px 10px;
+}
+.main-listing-div{
+    border: 1px solid transparent;
+    margin: 20px 0px;
+}
+.main-listing-div:hover{
+    border-color: black;
+}
+.table-short-option{
+    border-bottom: 1px solid black;
 }
