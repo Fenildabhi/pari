@@ -1,0 +1,335 @@
+.All-img-list a{
+        display: inline-block;
+        border: 1px solid #d2d2d2;
+        text-align: center;
+}
+.main-listing{
+    padding-top: 30px;
+}
+.img-inner-listing li{
+    float: left;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.main-listing-img img{
+    width: 100%;
+}
+.listing-item-name h1{
+    color: #242424;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: 'proxima_novasemibold' !important;
+    padding: 0px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.listing-item-name{
+    padding-bottom: 15px;
+}
+.inr-price{
+    padding-bottom: 20px;
+}
+.inr-price p{
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-block;
+    color: #bba2aa;
+}
+.inr-price span{
+    font-size: 14px;
+    line-height: 14px;
+    color: #db2827;
+    font-weight: bold;
+}
+.width-listing-mm{
+    display: flex;
+    align-items: center;
+}
+.width-listing-mm .width-inner{
+    padding-right: 10px;
+}
+.width-listing-mm .width-inner a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    position: relative;
+    width: 60px;
+    height: 47px;
+}
+.main-listing-metal{
+    display: inline-block;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 2px 1px;
+}
+.main-listing-metal img{ 
+    width: 38px;
+    height: 38px;
+    border: 1px solid transparent;
+}
+.main-listing-metal span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 13px;
+}
+.ringsize-main i{
+    color: #bba2aa;
+}
+.ringsize-main{
+    display: grid;
+    align-items: center;
+}
+.select_new {
+    /* margin-left: 25px !important; */
+    border: 1px solid #cdcdcd;
+    /* padding: 0px 30px 0px 10px; */
+    height: 36px;
+    line-height: 36px;
+    margin: 0px;
+    width: 50%;
+    font-size: 14px !important;
+    color: #575757;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.ring-size-main{
+    margin-left: 20px;
+}
+.ring-size-main span{
+    text-decoration: underline;
+    color: #565656;
+}
+.Add-ons a{
+    color: #bba2aa;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+/* .Add-ons{
+    display: flex;
+    align-items: center;
+} */
+.warranty-filed a{
+    text-decoration: underline;
+    color: #575757;
+    font-size: 13px;
+}
+.warranty-filed a:hover{
+    color: #bba2aa;
+}
+.errmsg{
+    color: #FF0000;
+}
+.ringsize-main label{
+    padding-right: 30px;
+}
+.add-to-bag{
+    width: 100%;
+    background: #000000;
+    border: 1px solid #000000;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px 25px;
+}
+.customize-now{
+    background: #fff;
+    border: 1px solid #bca2ab;
+    color: #bca2ab;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px 25px;
+    width: 100%;
+}
+.listing-desc{
+    padding: 0px 30px;
+}
+.width-main{
+    padding-bottom: 20px;
+}
+.metal-main .Metal-listing-mm{
+    padding-bottom: 20px;
+}
+.ringsize-main{
+    padding-bottom: 20px;
+}
+.Add-ons{
+    padding-bottom: 20px;
+}
+.listing-button{
+    padding-bottom: 20px;
+}
+.email-drop-hint a{
+    text-decoration: underline !important;
+    color: #565656;
+    padding-left: 5px;
+}
+.email-drop-hint i{
+    padding-left: 10px;
+}
+.drop-hint-main{
+    /* padding-bottom: 20px; */
+    border-top: 1px solid #ccc;
+    padding: 20px 0px;
+}
+.shipping-date p b{
+    padding-right: 8px;
+}
+.business-day p i{
+    padding-left: 8px;
+}
+.business-day p {
+    padding-right: 8px;
+}
+.need-sooner{
+    color: #bca2ab;
+}
+.need-sooner a{
+    color: #bca2ab;
+}
+.Similar-Items-main .Similar-Items-inner-img img{
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+.Similar-Items-main{
+    margin: 30px 0px;
+}
+.Similar-Items-price{
+    padding-top: 10px;
+}
+.Similar-Items-main .item{
+    padding: 0px 20px;
+}
+.Similar-Items-listing-name{
+    color: #575757;
+}
+.Similar-Items-main .item:hover .Similar-Items-listing-name{
+    color: #bca2ab;
+}
+.Similar-Items-price span{
+    color: #575757;
+    font-size: 14px;
+}
+.product-detaails i{
+    padding-right: 5px;
+}
+.product-detaails-main-page{
+    text-align: center;
+}
+.product-detaails{
+    text-transform: uppercase;
+    color: #565656;
+    font-size: 26px;
+    line-height: 26px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .Give-Back, .commitment{
+    border-bottom: 3px solid #a5a5a5;
+  }
+  .commitment ul{
+    border: none;
+  }
+  .border-bot{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #a5a5a5;
+  }
+  /* .HERE-TO-HELP a {
+    display: inline-block;
+    text-align: center;
+    width: 83px;
+    height: 83px;
+    line-height: 83px;
+    border: 1px solid #646464;
+    background-color: #fff;
+    border-radius: 50%;
+} */
+/* .HERE-TO-HELP a span{
+    display: block;
+    text-align: center;
+} */
+/* .HERE-TO-HELP a{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+} */
+.HERE-TO-HELP-inner{
+    text-align: center;
+    display: grid;
+}
+.HERE-TO-HELP-inner i{
+    display: inline-block;
+    text-align: center;
+    width: 83px;
+    height: 83px;
+    line-height: 83px;
+    border: 1px solid #646464;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #000000;
+}
+.HERE-TO-HELP-inner span{
+    color: #000000;
+    padding-top: 20px;
+}
+.HERE-TO-HELP-main{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.HERE-TO-HELP{
+    margin-bottom: 30px;
+}
+/* ---------------------------------------- */
+.listing-header h1{
+    color: #242424;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: 'proxima_novasemibold' !important;
+    padding: 0px;
+    font-weight: 400;
+}
+.listing-header p{
+    font-size: 16px;
+}
+.discont-product{
+    color: #575757;
+    padding-top: 10px;
+}
+.Eligible-listing-price .eligible{
+    font-size: 18px;
+    font-family: 'proxima_novabold';
+    color: #bca2ab;
+}
