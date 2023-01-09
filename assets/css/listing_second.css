@@ -207,10 +207,12 @@
     border: 1px solid #d2d2d2;
     text-align: center;
     display: inline-block;
-    padding: 10px;
 }
 .Similar-Items-main{
     margin: 30px 0px;
+    text-align: center;
+    background-color: #efefef;
+    padding: 40px 0px;
 }
 .Similar-Items-price{
     padding-top: 10px;
@@ -233,6 +235,7 @@
 }
 .product-detaails-main-page{
     text-align: center;
+    padding: 45px 0px;
 }
 .product-detaails{
     text-transform: uppercase;
@@ -332,4 +335,24 @@ table {
     font-size: 18px;
     font-family: 'proxima_novabold';
     color: #bca2ab;
+}
+.Eligible-listing-price{
+    padding: 0px;
+}
+.drop-icons li{
+    padding: 0px 10px;
+}
+.drop-icons{
+    padding: 20px 0px;
+    font-size: 18px;
+    border-top: 1px solid #ccc;
+}
+.drop-icons li a{
+    color: #666666;
+}
+.Similar-Items-main h3{
+    padding-bottom: 10px;
+}
+.GRADING_REPORTS .btn:focus{
+    box-shadow: none;
 }
