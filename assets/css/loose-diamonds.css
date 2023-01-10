@@ -25,10 +25,14 @@
 .main-listing-div{
     border: 1px solid transparent;
     margin: 20px 0px;
+    padding: 20px 0px;
 }
 .main-listing-div:hover{
     border-color: black;
 }
 .table-short-option{
     border-bottom: 1px solid black;
+}
+.listing-icon-tab #nav-tab button i{
+    color: black;
 }
