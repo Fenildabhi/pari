@@ -984,7 +984,7 @@ body{
     align-items: center;
   }
   /* ----------------------------------------------Lab Grown Diamond Engagement Rings---------------------------------------------- */
-  /* .header-title-engagment h1{
+   .header-title-engagment h1{
     font-size: 38px;
     color: #bba2aa;
     font-weight: normal;
@@ -994,22 +994,35 @@ body{
   .rings-image-sloat img{
     height: 44px;
     width: 44px;
-  } */
-  /* .dtl-step-inner::after{
+  } 
+   .dtl-step-inner::after{
     content: "";
     top: 50%;
     position: absolute;
-    border-top: 35px solid transparent;
-    border-bottom: 12px solid transparent;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
     border-left: 9px solid #cccccc;
     z-index: 1;
     transform: translateY(-50%);
-    right: 15px;
+    right: 13px;
+    border-left-color: #ffffff;
+   }
+   .dtl-step-inner::before{
+    content: "";
+    top: 50%;
+    position: absolute;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+    border-left: 11px solid #cccccc;
+    z-index: 1;
+    right: 11px;
+    transform: translateY(-50%);
    }
   .first-step-ring{
     position: relative;
-  } */
-  /* .build_dtl_inner{
+    padding: 0px 30px;
+  } 
+  .build_dtl_inner{
     position: relative;
   }
   .inner-content-rings::after{
@@ -1262,7 +1275,7 @@ body{
     letter-spacing: 1px;
     font-family: 'proxima_nova_rgregular' !important;
     font-weight: 300;
-} */
+} 
 .dtl-step-inner-content{
     font-size: 39px;
     display: inline-block;

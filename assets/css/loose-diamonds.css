@@ -25,7 +25,6 @@
 .main-listing-div{
     border: 1px solid transparent;
     margin: 20px 0px;
-    padding: 20px 0px;
 }
 .main-listing-div:hover{
     border-color: black;
@@ -35,4 +34,11 @@
 }
 .listing-icon-tab #nav-tab button i{
     color: black;
+}
+.listing-coll-inner:focus{
+    box-shadow: none;
+}
+.listing-data-table tr td{
+    padding: 3px 3px;
+    font-size: 12px;
 }
