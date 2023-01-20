@@ -1,0 +1,73 @@
+
+.Price-Match{
+    background-image: url(../image/edu_banner_bg.png);
+    text-align: center;
+    padding: 10px 0px;
+}
+.Price-Match h1{
+    color: #575757;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.file-status{
+    padding-bottom: 20px;
+}
+.Price-Match-description p{
+    margin: 0 0 10px !important;
+    padding-bottom: 10px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #575757;
+}
+
+.list-Price-Match li{
+    text-align: left;
+    padding-bottom: 10px;
+    color: #575757;
+    font-size: 15px;
+    margin-left: 15px;
+    position: relative;
+    line-height: 20px;
+}
+
+.list-Price-Match li:before {
+    content: "";
+    font-family: FontAwesome-5 ;
+    position: absolute;
+    top: 0px;
+    color: #757575 !important;
+    font-size: 18px;
+    left: -15px;
+    padding: 0 10px 0 0;
+}
+.Search-For-Loose h2{
+    text-transform: capitalize;
+    color: #575757;
+    padding: 15px 0 5px 0;
+}
+.Search-For-Loose-img img{
+    width: 80% !important;
+    margin: auto;
+}
+.Search-For-Loose{
+    margin-top: 30px !important;
+}
+.Price_Match_btn {
+    text-align: center;
+    margin: 20px 0px;
+}
+.Price_Match_btn a{
+    color: #e1e1e1 !important;
+    opacity: 0.97;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-color: #808080;
+    background-color: #808080;
+    color: #ffffff !important;
+    padding: 8px 17px;
+}
