@@ -744,7 +744,8 @@ body{
     width: 28px;
 }
 .diamond-list{
-    padding-left: 10px;
+    padding-left: 7px;
+    white-space: nowrap;
 }
 .dropdown-4 h3{
     font-size: 14px;
