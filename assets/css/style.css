@@ -1152,9 +1152,9 @@ body{
 .product-listing{
     text-align: center;
 }
-.product-listing img{
+/* .product-listing img{
     max-height: 185px;
-}
+} */
 .product-reg a{
     margin: 0px 2px;
     padding: 0px;
@@ -2383,4 +2383,24 @@ font-size: 30px;
 }
 .listing-popup-des{
     margin-bottom: 20px !important;
+}
+.lab_diamond_footer_desc a{
+    text-decoration: underline !important;
+    color: #575757 !important;
+}
+.lab_diamond_footer_desc a:hover{
+    color: #bca2ab !important;
+}
+.product-listing-main{
+    cursor: pointer;
+}
+/* .dropdown-menu{
+    z-index: 0 !important;
+} */
+.product-listing img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    height: 100%;
 }

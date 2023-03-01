@@ -152,9 +152,9 @@
 .product-listing{
     text-align: center;
 }
-.product-listing img{
+/* .product-listing img{
     max-height: 185px;
-}
+} */
 .product-reg a{
     margin: 0px 2px;
     padding: 0px;
