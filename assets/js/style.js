@@ -18,13 +18,13 @@ $('.logo-image-slider').owlCarousel({
     dots: false,
     responsive:{
         0:{
-            items:1
-        },
-        600:{
             items:3
         },
+        600:{
+            items:4
+        },
         1000:{
-            items:5
+            items:6
         }
     }
 })
@@ -171,4 +171,10 @@ $(window).scroll(function() {
         });
       })();
 
-      
+setTimeout(function(){
+  if ($(window).width() < 514) {
+    $('.navbar-expand-lg').addClass('fixed-bottom');
+} else {
+    $('.navbar-expand-lg').removeClass('fixed-bottom');
+}
+}, 200);

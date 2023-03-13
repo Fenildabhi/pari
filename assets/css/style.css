@@ -70,8 +70,6 @@ body{
 }
 .second-top{
     padding: 0px 30px;
-    height: 80px;
-
 }
 .header-icon{
     padding: 0px 10px;
@@ -153,6 +151,12 @@ body{
 }
 .bg-main-part img{
     max-width: 100%;
+}
+.bg-main-part{
+    background-image: url(../image/1-image-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
 .baaner-inner{
     position: relative;
@@ -390,7 +394,6 @@ body{
 .commitment ul li{
     padding: 0px 20px;
     display: inline-block;
-    width: 14.28571428571429%;
     padding-top: 15px;
 }   
 .commitment ul {
@@ -958,7 +961,6 @@ body{
     text-align: center;
     font-size: 24px;
     line-height: 48px;
-    height: 48px;
     background: #efc47D;
  
   }
@@ -1026,7 +1028,7 @@ body{
   .build_dtl_inner{
     position: relative;
   }
-  .inner-content-rings::after{
+  /* .inner-content-rings::after{
     content: "";
     display: block;
     position: absolute;
@@ -1036,7 +1038,7 @@ body{
     height: 62px;
     background-color: #7e7e7e;
     transform: translateY(-50%);
-  }
+  } */
   .build_hd_detail{
     padding: 20px 0px;
   }
@@ -2404,3 +2406,88 @@ font-size: 30px;
     min-height: 300px;
     height: 100%;
 }
+.owl-carousel{
+    z-index: 0 !important;
+}
+.navbar-toggler i{
+    color: #000;
+}
+.mobile-offcanvas{
+    visibility: hidden;
+    transform:translateX(-100%);
+    border-radius:0; 
+    display:block;
+    position: fixed;  top: 0; left:0;
+    height: 100%; width:80%;
+    z-index: 1200; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: visibility .3s ease-in-out, transform .3s ease-in-out;
+}
+.jewellery-option img{
+    width: 100%;
+}
+.commitment-inner {
+    display: flex;
+}
+.commitment-inner li{
+    max-width: 200px;
+}
+.lab_diamond_footer_desc{
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .bg-main-part .main-baner-responsive{
+            display: block !important;
+        }
+    .bg-main-part .not-responsive-main-baner{
+        display: none;
+    }
+    .commitment-inner{
+        display: grid !important;
+    }
+    
+}
+@media (max-width: 576px) { 
+    .discount-part .discount-part-label, .discount-part .sale-body{
+        font-size: 15px;
+    }
+    .insta-id, .insta-id a{
+        font-size: 35px !important;
+    }
+}
+@media (max-width: 992px) { 
+    .main-baner-inner{
+        position: inherit;
+    }
+    .main-baner-inner h2, .main-baner-inner p{
+        color: #000;
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    .style-selector, .second-dropdown{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .build_hd_detail_inner::after{
+      display: none;
+    }
+    .build_hd_detail_inner{
+      border-bottom: 1px solid black;
+    }
+    .build_hd_outer{
+      width: 100%;
+    }
+    .build_hd_detail{
+      text-align: center;
+    }
+    .Questions-ans .discount-text a{
+      font-size: 15px !important;
+    }
+    .Questions-ans h2{
+      font-size: 40PX !important;
+    }
+  }

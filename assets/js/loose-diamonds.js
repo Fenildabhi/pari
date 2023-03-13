@@ -1,5 +1,5 @@
 function myFunction() {
-    var x = document.getElementById("myDIV");
+    var x = document.getElementsByClassName("myDIV");
     if (x.style.display === "none") {
       x.style.display = "initial";
     } else {

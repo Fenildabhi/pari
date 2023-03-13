@@ -20,42 +20,44 @@
     <section>
         <div class="discount-part">
             <div class="discount-text">
-                <p class="text-center"><b>BIG FALL SALE</b> - Up to <b>$500 OFF*</b><span>|</span><small>Use code:
+                <p class="text-center discount-part-label"><b>BIG FALL SALE</b> - Up to <b>$500 OFF*</b><span>|</span><small>Use code:
                         <font>FALL22</font></small><a class="pluse-icon-collapse main-page" data-bs-toggle="collapse"
                         href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i
                             class="fas fa-plus" onclick="myFunction(this)"></i></a></p>
                 <div class="collapse" id="collapseExample">
                     <div class="card card-body collapse-data sale-body">
                         <div class="container">
-                            <table class="SALE-table-data">
-                                <tr>
-                                    <th>Spend</th>
-                                    <td>$200</td>
-                                    <td>$200</td>
-                                    <td>$200</td>
-                                    <td>$200</td>
-                                    <td>$200</td>
-                                    <td>$200</td>
-                                    <td>$200</td>
-                                    <td>$200</td>
-                                    <td>$200</td>
-                                </tr>
-                                <tr>
-                                    <td class="sapborder" colspan="10"></td>
-                                </tr>
-                                <tr>
-                                    <th>Save</th>
-                                    <td>$10</td>
-                                    <td>$30</td>
-                                    <td>$50</td>
-                                    <td>$70</td>
-                                    <td>$100</td>
-                                    <td>$200</td>
-                                    <td>$300</td>
-                                    <td>$400</td>
-                                    <td>$500</td>
-                                </tr>
-                            </table>
+                            <div class="table-responsive">
+                                <table class="SALE-table-data table">
+                                    <tr>
+                                        <th>Spend</th>
+                                        <td>$200</td>
+                                        <td>$200</td>
+                                        <td>$200</td>
+                                        <td>$200</td>
+                                        <td>$200</td>
+                                        <td>$200</td>
+                                        <td>$200</td>
+                                        <td>$200</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sapborder" colspan="10"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Save</th>
+                                        <td>$10</td>
+                                        <td>$30</td>
+                                        <td>$50</td>
+                                        <td>$70</td>
+                                        <td>$100</td>
+                                        <td>$200</td>
+                                        <td>$300</td>
+                                        <td>$400</td>
+                                        <td>$500</td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -63,7 +65,10 @@
         </div>
     </section>
     <section class="bg-main-part">
-        <img src="assets/image/1-image-bg.jpg" alt="bg-main-image">
+        <img src="assets/image/1-image-bg.jpg"lass="img-fluid 
+        " alt="bg-main-image" class="not-responsive-main-baner">
+        <img src="assets/image/main-baner-responsive.jpg" class="img-fluid main-baner-responsive hide
+        " alt="" style="display: none;">
         <div class="baaner-inner">
             <div class="baaner-inner-content">
                 <h2 class="inner-title">Peace & Prosperity</h2>
@@ -111,19 +116,19 @@
     <section class="jewellery-option">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-md">
                     <a href="#">
                         <img src="assets/image/ring-1.jpg" alt="">
                     </a>
                     <h1 class="text-center">Wedding Rings</h1>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md">
                     <a href="#">
                         <img src="assets/image/ring-2.jpg" alt="">
                     </a>
                     <h1 class="text-center">New Arrivals</h1>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md">
                     <a href="#">
                         <img src="assets/image/ring-3.jpg" alt="">
                     </a>
@@ -138,28 +143,28 @@
             <p class="shop-all-option"><a href="#">Shop AllS</a></p>
             <div class="everyday-image">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-6 col-sm-6 col-md-4 col-xl-3 ">
                         <a href="#"><img src="assets/image/rings.jpg" alt=""></a>
                         <span class="option-name">
                             <h3>Rings</h3>
                             <p>From Classic to Fashion</p>
                         </span>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-sm-6 col-md-4 col-xl-3 ">
                         <a href="#"><img src="assets/image/pendant.jpg" alt=""></a>
                         <span class="option-name">
                             <h3>Pendants & Necklaces</h3>
                             <p>Personal to Fashion</p>
                         </span>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-sm-6 col-md-4 col-xl-3 ">
                         <a href="#"><img src="assets/image/bracelets.jpg" alt=""></a>
                         <span class="option-name">
                             <h3>Bracelets & Anklets</h3>
                             <p>Add a Touch to your Outfit</p>
                         </span>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-sm-6 col-md-4 col-xl-3 ">
                         <a href="#"><img src="assets/image/earrings.jpg" alt=""></a>
                         <span class="option-name">
                             <h3>Earrings</h3>
@@ -221,36 +226,36 @@
 
     <section class="h-shape-1">
         <div class="container-fluid">
-            <div class="Shop-by-Collection">
+            <div class="Shop-by-Collection text-center">
                 <h2 class="text-center">Shop by Collection</h2>
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md">
                         <a href="#">
                             <img src="assets/image/collection-1.jpg" alt="">
                             <h3 class="text-center">Paperclip</h3>
                         </a>
 
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <a href="#">
                             <img src="assets/image/collection-2.jpg" alt="">
                             <h3 class="text-center">Salt & Pepper</h3>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <a href="#">
                             <img src="assets/image/collection-3.jpg" alt="">
                             <h3 class="text-center">Colored Diamonds</h3>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <a href="#">
                             <img src="assets/image/collection-4.jpg" alt="">
                             <h3 class="text-center">Diamond Studs</h3>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <a href="#">
                             <img src="assets/image/collection-5.jpg" alt="">
                             <h3 class="text-center">Tennis Bracelets</h3>
@@ -265,7 +270,7 @@
         <div class="container">
             <div class="text-center">
                 <h2>the allurez commitment</h2>
-                <ul class="d-flex justify-content-center">
+                <ul class="commitment-inner justify-content-center">
                     <li>
                         <a href="#">
                             <i class="fas fa-landmark"></i>
@@ -388,33 +393,34 @@
 
     <section class="insta">
         <div class="container">
-            <h2>Instagram <i class="fab fa-instagram"></i><a href="#" class="pari-impex-insta">Pari-Impex</a></h2>
+            <h2 class="insta-id">Instagram <i class="fab fa-instagram"></i><a href="#" class="pari-impex-insta">Pari-Impex</a></h2>
+            <div class="owl-carousel owl-theme instagram-image">
+                <div class="item"><a href="#"><img src="assets/image/i-1.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-2.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-3.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-4.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-5.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-6.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-7.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-8.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-9.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-10.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-11.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-12.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-13.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-14.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-15.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-16.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-17.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-18.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-19.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-20.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-21.jpg" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/image/i-22.jpg" alt=""></a></div>
+            </div>
         </div>
 
-        <div class="owl-carousel owl-theme instagram-image">
-            <div class="item"><a href="#"><img src="assets/image/i-1.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-2.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-3.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-4.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-5.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-6.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-7.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-8.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-9.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-10.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-11.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-12.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-13.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-14.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-15.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-16.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-17.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-18.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-19.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-20.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-21.jpg" alt=""></a></div>
-            <div class="item"><a href="#"><img src="assets/image/i-22.jpg" alt=""></a></div>
-        </div>
+        
     </section>
 
     <section class="home_featured">
