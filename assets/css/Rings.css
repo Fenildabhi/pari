@@ -13,6 +13,7 @@
 }
 
 .Jewelry-rings-inner h1{
+    position: relative;
     font-size: 54px;
     color: #bba2aa;
     font-weight: 400;
@@ -41,7 +42,8 @@
     content: "";
     left: 0;
     right: 0;
-    top: 160px;
+    /* top: 160px; */
+    bottom: -5px;
     transition: all 0.4s ease-in-out;
 }
 .Jewelry-rings:hover .Jewelry-rings-inner h1::before  {
@@ -219,4 +221,33 @@
     padding: 8px 17px;
     font-size: 14px;
     font-weight: normal;
+}
+@media (max-width: 992px) { 
+    .ring-collaction-inner h2{
+        font-size: 22px;
+    }
+    .ring-collaction-inner p{
+        font-size: 18px;
+    }
+    .Engagement-Rings-inner-desc h2{
+        font-size: 22px;
+    }
+    .Engagement-Rings-inner-desc p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .Jewelry-rings-inner h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 1200px) { 
+    .Jewelry-rings-inner{
+        left: 100px;
+    }
+}
+@media (max-width: 768px) {
+    .Jewelry-rings-inner{
+        position: inherit;
+        margin: auto;
+    }
 }

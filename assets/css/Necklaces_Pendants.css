@@ -13,6 +13,7 @@
 }
 
 .Jewelry-rings-inner h1{
+    position: relative;
     font-size: 54px;
     color: #bba2aa;
     font-weight: 400;
@@ -41,7 +42,7 @@
     content: "";
     left: 0;
     right: 0;
-    top: 115px;
+    bottom: -3px;
     transition: all 0.4s ease-in-out;
 }
 .Jewelry-rings:hover .Jewelry-rings-inner h1::before  {
@@ -220,4 +221,28 @@
     padding: 8px 17px;
     font-size: 14px;
     font-weight: normal;
+}
+@media (max-width: 992px) {
+    .Jewelry-rings-inner h1 {
+        font-size: 30px;
+    }
+    .Jewelry-rings-inner p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .Jewelry-rings-inner{
+        position: inherit;
+        margin: auto;
+        width: auto;
+    }
+    .shop-by-ring h2{
+        font-size: 30px;
+    }
+    .new-arrival h2 a, .best-seller-inner h2 a{
+        font-size: 30px; 
+    }
+    .new-arrival p, .best-seller-inner p{
+        font-size: 18px;
+    }
 }

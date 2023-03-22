@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1300px) {
+    .cat_banner_overlay h1{
+        font-size: 25px;
+    }
+    .cat_banner_overlay p{
+        font-size: 16px;
+        margin-bottom: 10px !important;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .cat_banner_overlay h1{
+        font-size: 25px;
+    }
+    .cat_banner_overlay p{
+        font-size: 16px;
+        margin-bottom: 10px !important;
+    }
+    .cat_banner_overlay {
+        position: static;
+        margin: auto;
+    }
+  }

@@ -2143,10 +2143,9 @@ font-size: 30px;
 }
 .cat_banner_overlay h1{
     font-size: 36px;
-    line-height: 36px;
     position: relative;
     color: #575757;
-    padding-bottom: 5%;
+    padding-bottom: 10px;
     text-transform: capitalize;
     font-family: 'Canela' !important;
     font-style: normal;
@@ -2162,11 +2161,9 @@ font-size: 30px;
     position: absolute;
     left: 150px;
     top: 15px;
-    width: 100%;
+    width: 500px;
     height: 100%;
     text-align: center;
-    float: left;
-    width: 558px/*420px*/;
     display: table;
     height: 100%;
 }
@@ -2197,9 +2194,9 @@ font-size: 30px;
 .Your-Vision-We-Create-it-menu ul{
     justify-content: center;
 }
-.Your-Vision-We-Create-it-menu ul li{
+/* .Your-Vision-We-Create-it-menu ul li{
     padding: 20px 30px;
-}
+} */
 .Your-Vision-We-Create-it-menu ul li:not(:last-child){
     border-right: 1px solid #cccccc;
 }
@@ -2209,6 +2206,9 @@ font-size: 30px;
 .tab-vision-we-create{
     display: flex;
     margin-bottom: 0px;
+}
+.tab-vision-we-create li{
+    white-space: nowrap;
 }
 .Request_Your_Design h5{
     font-size: 18px;
@@ -2220,7 +2220,7 @@ font-size: 30px;
     font-weight: 300;
     font-size: 100px;
     line-height: 140px;
-    width: 12%;
+    width: 100px;
     color: #5b5a58;
     text-align: center;
     position: relative;

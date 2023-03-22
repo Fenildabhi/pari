@@ -6,7 +6,7 @@ $('.owl-carousel.shop-by-ring-slider').owlCarousel({
   dots: false,
   responsive:{
       0:{
-          items:1
+          items:3
       },
       600:{
           items:3
@@ -25,7 +25,7 @@ $('.owl-carousel.shop-by-stone-slider').owlCarousel({
   dots: false,
   responsive:{
       0:{
-          items:1
+          items:3
       },
       600:{
           items:3

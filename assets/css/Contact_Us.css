@@ -14,6 +14,12 @@
     align-items: center;
     margin: 15px 0px;
 }
+.contact-input-filed label{
+    white-space: nowrap;
+}
+.contact-input-filed .contact-input-filed-body{
+    margin-left: 5px;
+}
 .list-icons{
     padding-left: 0px;
 }
@@ -95,3 +101,19 @@
 .support h2{
     color: #575757;
 }
+.contect-submit-btn{
+    background-color: #bba2aa;
+    border-color: #bba2aa;
+    width: 100%;
+}
+@media (max-width: 768px) { 
+    .contact-input-filed{
+        justify-content: space-between;
+    }
+    .contact-img{
+        text-align: center;
+    }
+    .Questions-ans h2{
+        font-size: 40px;
+    }
+ }
