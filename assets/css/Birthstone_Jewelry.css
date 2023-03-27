@@ -115,3 +115,16 @@
 .Birthstone-description p{
     padding-bottom: 10px;
 }
+@media (max-width: 1200px) { 
+    .zodiac_inner{
+        position: inherit !important;
+    }
+    .zodiac {
+        display: inherit !important;
+    }
+} 
+@media (max-width: 768px) {
+    .Birthstone-Jewelry-image-inner img{
+        position: inherit;
+    }
+}
