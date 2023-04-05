@@ -3,7 +3,15 @@
         $("#header").load("header.html"); 
           $("#footer").load("footer.html"); 
         });
-
+        
+        setTimeout(function(){
+          document.querySelector('#navbarSideCollapse').addEventListener('click', function() {
+            document.querySelector('.offcanvas-collapse').classList.toggle('open')
+        })
+        document.querySelector('#navbarSideCollapse-1').addEventListener('click', function() {
+          document.querySelector('.offcanvas-collapse').classList.toggle('open')
+      })
+        }, 100);
 $(function(){
   $('a').click(function(){
       $('a.active-line').removeClass('active-line');
@@ -178,3 +186,8 @@ setTimeout(function(){
     $('.navbar-expand-lg').removeClass('fixed-bottom');
 }
 }, 200);
+
+$(window).scrollTop(position);
+        function scrollToTop() {
+          window.scrollTo(0, 0);
+      }

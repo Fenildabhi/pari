@@ -109,11 +109,12 @@ body{
     padding: 0px 15px; 
 }
 .icon-list-left{
+    display: flex;
     padding-top: 15px;
 }
-.icon-list-right{
+/* .icon-list-right{
     padding-top: 15px;
-}
+} */
 .navbar-dark .navbar-nav .nav-link{
     color: #575757 !important;
 }
@@ -121,17 +122,18 @@ body{
     background-color: #fff;
     color: #000;
 }
-#main_nav .list-nav li{
+.main_nav .list-nav li{
     padding: 0px 10px;
 }
-#main_nav .list-nav li a{
+.main_nav .list-nav li a{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    color: #575757;
     font-family: 'Proxima Nova Rg';
 
 }
-#main_nav{
+.main_nav{
     border-top: solid 1px #ececec;
     border-bottom: solid 1px #ececec;
 }
@@ -954,15 +956,17 @@ body{
     font-family: 'PT Sans', sans-serif;
     transition: all 0.4s ease;
   }
-  header.sticky {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    text-align: center;
-    font-size: 24px;
-    line-height: 48px;
-    background: #efc47D;
- 
+  @media (min-width: 992px) { 
+    header.sticky {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        text-align: center;
+        font-size: 24px;
+        line-height: 48px;
+        background: #efc47D;
+     
+      }
   }
   
   ul{
@@ -1288,7 +1292,7 @@ body{
     font-weight: 300;
     width: 15%;
     margin: 0 5px 0 0;
-    padding-right: 40px;
+    /* padding-right: 40px; */
 }
 .loose-diamonds{
     text-align: center;
@@ -2460,6 +2464,9 @@ font-size: 30px;
     .insta-id, .insta-id a{
         font-size: 35px !important;
     }
+    .free-shipping{
+        display: none;
+    }
 }
 @media (max-width: 992px) { 
     .main-baner-inner{
@@ -2474,7 +2481,42 @@ font-size: 30px;
       display: none;
     }
   }
-  
+  @media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed !important;
+        top: 0px;
+        /* Height of navbar */
+        bottom: 0;
+        right: 100% !important;
+        width: 300px !important;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        z-index: 9;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #FFF;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        transform: translateX(100%);
+    }
+    .main_nav .list-nav, .main_nav .list-nav li a{
+        text-align: start;
+    }
+    .main_nav .list-nav li.has-megamenu:not(:first-child){
+        border-bottom: 1px solid rgba(187, 162, 170, 0.5);
+    }
+}
+  @media only screen and (min-width: 992px) {
+    .navbar-toggler{
+        display: none;
+    }
+    
+    
+  }
+
   @media only screen and (max-width: 768px) {
     .build_hd_detail_inner::after{
       display: none;
@@ -2495,3 +2537,41 @@ font-size: 30px;
       font-size: 40PX !important;
     }
   }
+
+  @media (max-width: 1200px) { 
+    .review-header{
+        display: none;
+    }
+    .header-text{
+        display: none;
+    }
+    .icon-list-left{
+        display: none !important;
+    }
+    .Search-icon-header, .heart-icon, .flag-icon{
+        display: none;
+    }
+  }
+  .navbar{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+#navbarSideCollapse-1{
+    border: 1px solid #bba2aa;
+}
+#navbarSideCollapse-1 i{
+    color: #bba2aa;
+}
+.commen-top-up{
+    border-radius: 5px;
+    position: fixed;
+    bottom: 13px;
+    width: 20px;
+    background: #c9baba;
+    right: 27px;
+    height: 20px;
+    text-align: center;
+}
+.commen-top-up{
+    cursor: pointer;
+}
