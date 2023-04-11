@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css.map" class="" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css" class="" />
+    <link rel="stylesheet" href="assets/css/index.css" class="" />
+</head>
+
+<body>
+    <section class="side_bar_dashboard">
+        <!-- <div class="side_bar_inner">
+            <ul class="side_bar_option">
+                <li class="side_bar_option_inner active d-flex align-items-center ">
+                    <div>
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div>
+                        <span>Dashboard</span>
+                    </div>
+                </li>
+                <li class="side_bar_option_inner d-flex align-items-center ">
+                    <div>
+                        <i class="fas fa-plus-circle"></i>
+                        
+                    </div>
+                    <div>
+                        <span>Add Product</span>
+                    </div>
+                </li>
+                <li class="side_bar_option_inner d-flex align-items-center ">
+                    <div>
+                        <i class="fas fa-luggage-cart"></i>
+                        
+                    </div>
+                    <div>
+                        <span>Order</span>
+                    </div>
+                </li>
+                <li class="side_bar_option_inner d-flex align-items-center ">
+                    <div>
+                        <i class="fas fa-rupee-sign"></i>
+                        
+                    </div>
+                    <div>
+                        <span>Payment</span>
+                    </div>
+                </li>
+            </ul>
+        </div> -->
+        <div class="main_outer_wrapper">
+            <div class="projectBlock project-detail">
+                <div class="tab_sidebar_main">
+                    <div class="back_button d-flex align-items-center justify-content-between">
+                        <a class="d-flex align-items-center font-bold" href="#" id="btnBackCardViewProject" p_pro=""
+                            onclick="showModuleListView(); return false;">
+                            <i class="fas fa-angle-left mr-20 d-flex align-items-center justify-content-center"></i>
+                            <!-- <i class="fas fa-angle-left"></i> -->
+                            <span>Back</span>
+                        </a>
+                        <button class="sidebar_expand_button">
+                            <i class="fa-light fa-bars-sort expand_icon" data-tooltip-body="tooltip"
+                                data-original-title="Expand Sidebar"></i>
+                        </button>
+                        <button class="sidebar_collapse_button">
+                            <i class="fas fa-times collapse_icon" data-tooltip-body="tooltip"
+                                data-original-title="Collapse Sidebar"></i>
+                        </button>
+                    </div>
+                    <div class="sidebar_main_block">
+                        <div class="module-tabs project_details_tab_outer_block customScroll">
+                            <ul class="nav nav-tabs flex-column project_details_tab mt-12 mb-12" id="myTab"
+                                role="tablist">
+                                <li class="nav-item" role="presentation" view="summery">
+                                    <button class="nav-link" id="Dashboard" data-bs-toggle="tab"
+                                        data-bs-target="#Dashboard_1" type="button" role="tab"
+                                        aria-controls="summery" aria-selected="false">
+                                        <i class="fas fa-chart-line"></i>
+                                        <span>Dashboard</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="Product" data-bs-toggle="tab"
+                                        data-bs-target="#Product_1" type="button" role="tab" aria-controls="detail"
+                                        aria-selected="true" autocomplete="nope">
+                                        <i class="fas fa-plus-circle"></i>
+                                        <span>Add Product</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="Order" data-bs-toggle="tab"
+                                        data-bs-target="#Order_1" type="button" role="tab" aria-controls="financial"
+                                        aria-selected="false">
+                                        <i class="fas fa-luggage-cart"></i>
+                                        <span>Order</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation" view="schedule_value">
+                                    <button class="nav-link" id="schedule-value-tab" data-bs-toggle="tab"
+                                        data-bs-target="#schedule-value" type="button" role="tab"
+                                        aria-controls="schedule-value" aria-selected="false">
+                                        <i class="fas fa-luggage-cart"></i>
+                                        <span>Order</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="notes-tab" data-bs-toggle="tab" data-bs-target="#notes"
+                                        type="button" role="tab" aria-controls="notes" aria-selected="false">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <span>Payment</span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="Dashboard_detail">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="Dashboard_1" role="tabpanel" aria-labelledby="Dashboard">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="Dashboard_com_body_main">
+                                            <div class="Dashboard_com_body">
+                                                <div class="Dashboard_com_header">
+                                                    <h5>Daily Order chart</h5>
+                                                </div>
+                                                <div class="Dashboard_com_body_inner">
+                                                    <div id="Order_chart"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="Dashboard_com_body_main">
+                                            <div class="Dashboard_com_body">
+                                                <div class="Dashboard_com_header">
+                                                    <h5>Daily Order Payment</h5>
+                                                </div>
+                                                <div class="Dashboard_com_body_inner">
+                                                    <div id="Order_payment"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="Dashboard_com_body_main">
+                                            <div class="Dashboard_com_body">
+                                                <div class="Dashboard_com_header">
+                                                    <h5>Balance</h5>
+                                                </div>
+                                                <div class="Dashboard_com_body_inner">
+                                                    <div id="Balance"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Product_1" role="tabpanel" aria-labelledby="Product">
+                            Tab 2 content
+                        </div>
+                        <div class="tab-pane fade" id="Order_1" role="tabpanel" aria-labelledby="Order">
+                            Tab 3 content
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.37.3/apexcharts.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> -->
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/style.js"></script>
+</body>
+
+</html>

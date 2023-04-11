@@ -1,0 +1,240 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+/* .side_bar_inner{
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background: #223558;
+    color: #fff;
+}
+.side_bar_option{
+    padding: 20px;
+}
+.side_bar_option_inner{
+    position: relative;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.side_bar_option_inner.active::after{
+    content: "";
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     bottom: 0px;
+     left: 0px;
+     display: block;
+     border-radius: 0.5rem;
+     border-style: solid;
+     border-top: 0;
+     border-color: rgba(0,0,0,0.2);
+     background-color: rgba(255,255,255,0.1);
+}
+.side_bar_option_inner i{
+    font-size: 18px;
+    line-height: 40px;
+    min-width: 43px;
+    text-align: center;
+}
+.side_bar_option_inner span{
+    font-size: 22px;
+    padding-left: 15px;
+} */
+
+.tab_sidebar_main {
+    border-right: 1px solid rgba(196, 196, 196, 0.5);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 70px;
+    background-color: #223558;
+    transition: width 0.38s linear;
+    overflow: hidden;
+}
+/* .tab_sidebar_main:hover{
+    width: 225px;
+} */
+.tab_sidebar_main .back_button {
+    border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+    padding: 10px 18px;
+    height: 57px;
+    width: 225px;
+    overflow: hidden;
+}
+.tab_sidebar_main .back_button #btnBackCardViewProject i {
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.9);
+    height: 30px;
+    width: 31px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.tab_sidebar_main .back_button span {
+    color: #fff;
+    margin-left: 20px;
+}
+.tab_sidebar_main .back_button .sidebar_expand_button, .tab_sidebar_main .back_button .sidebar_collapse_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    overflow: hidden;
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 4px #1f2f4f;
+}
+.tab_sidebar_main .back_button .sidebar_expand_button i, .tab_sidebar_main .back_button .sidebar_collapse_button i {
+    color: #fff;
+    font-size: 17px;
+    transition: all 0.5s ease;
+}
+.tab_sidebar_main .back_button .sidebar_expand_button .sidebar_toggle_button_icon, .tab_sidebar_main .back_button .sidebar_collapse_button .sidebar_toggle_button_icon {
+    height: 1px;
+    width: 20px;
+    background-color: #fff;
+    display: inline-block;
+    transition: cubic-bezier(0.77, 0, 0.175, 1) 0.2s;
+}
+.tab_sidebar_main .back_button .sidebar_collapse_button {
+    display: flex;
+}
+.tab_sidebar_main .back_button .sidebar_expand_button {
+    display: none;
+}
+.tab_sidebar_main .module-tabs.project_details_tab_outer_block {
+    max-height: calc(100vh - 200px);
+    overflow: hidden auto;
+    overflow: hidden overlay;
+    height: 100%;
+}
+.tab_sidebar_main .module-tabs ul.project_details_tab {
+    border: none;
+}
+.tab_sidebar_main .module-tabs ul.project_details_tab li.nav-item {
+    width: 100%;
+}
+.tab_sidebar_main .module-tabs ul.project_details_tab li.nav-item button {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 20px);
+    border: none;
+    color: #fff;
+    border-radius: 0;
+    padding: 8px 14px;
+    transition: all 0.5s ease;
+    margin: 0px 10px;
+    background: none;
+}
+.tab_sidebar_main .module-tabs ul.project_details_tab li.nav-item button.active, .tab_sidebar_main .module-tabs ul.project_details_tab li.nav-item button:hover {
+    background-color: rgba(34, 53, 88, 0.5);
+    border-radius: 9px;
+    position: relative;
+}
+.tab_sidebar_main .module-tabs ul.project_details_tab li.nav-item button.active::before, .tab_sidebar_main .module-tabs ul.project_details_tab li.nav-item button:hover::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: block;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-top: 0;
+    border-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.20);
+}
+.tab_sidebar_main .module-tabs ul.project_details_tab li.nav-item button i {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 25px;
+    color: #fff;
+}
+.tab_sidebar_main .module-tabs ul.project_details_tab li.nav-item button span {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.tab_sidebar_main .module-tabs ul.project_details_tab li.nav-item:not(:last-child) {
+    margin-bottom: 7px;
+}
+.main_outer_wrapper.tab_sidebar_collapse .tab_sidebar_main {
+    width: 70px;
+}
+.main_outer_wrapper.tab_sidebar_collapse .tab_sidebar_main .back_button .sidebar_collapse_button {
+    display: none;
+}
+.main_outer_wrapper.tab_sidebar_collapse .tab_sidebar_main .back_button .sidebar_expand_button {
+    display: flex;
+}
+.main_outer_wrapper.tab_sidebar_collapse .tab_sidebar_main .project_details_tab li button:hover {
+    margin: 0px 10px 0px 15px;
+}
+.main_outer_wrapper.tab_sidebar_collapse .content_area {
+    padding-left: 70px;
+}
+.main_outer_wrapper.tab_sidebar_collapse .content_area .project_details_head {
+    left: 85px;
+}
+.main_outer_wrapper.tab_sidebar_collapse .content_area .time_line_footer {
+    left: 70px;
+}
+.main_outer_wrapper.tab_sidebar_collapse .timeline_block {
+    display: none;
+}
+.main_outer_wrapper.tab_sidebar_collapse .file_photos_head {
+    left: 70px;
+    width: calc(100% - 70px);
+}
+.main_outer_wrapper.tab_sidebar_main_active .tab_sidebar_main {
+    width: 225px;
+}
+.main_outer_wrapper.tab_sidebar_main_active .tab_sidebar_main .project_details_tab li button:hover {
+    margin: 0px 10px 0px 15px;
+}
+.main_outer_wrapper.tab_sidebar_main_active .content_area {
+    padding-left: 225px;
+}
+.main_outer_wrapper.tab_sidebar_main_active .content_area .project_details_head {
+    left: 240px;
+}
+.main_outer_wrapper.tab_sidebar_main_active .content_area .time_line_footer {
+    left: 225px;
+}
+.main_outer_wrapper.tab_sidebar_main_active .timeline_block {
+    display: block;
+}
+.main_outer_wrapper.tab_sidebar_main_active .file_photos_head {
+    left: 225px;
+    width: calc(100% - 225px);
+}
+.Dashboard_detail{
+    margin-left: 80px;
+    background-color: #f8f8f8;
+}
+.Dashboard_com_body_main{
+   
+}
+.Dashboard_com_body{
+    box-shadow: 0px 0px 3px 1px #c9c5c5;
+    background: #ffffff;
+    border-radius: 6px;
+}
+.Dashboard_com_header{
+    border-bottom: 1px solid #d9cece;
+    padding: 10px;
+}
+.Dashboard_com_body_inner{
+    background: #ffffff;
+}
