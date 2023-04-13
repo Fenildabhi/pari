@@ -163,3 +163,113 @@ var options = {
 
   var chart = new ApexCharts(document.querySelector("#Balance"), options);
   chart.render();
+
+  // -----------------------------------------
+  
+var options = {
+  series: [{
+  name: 'Net Profit',
+  data: [44, 55, 57, 56, 61]
+}],
+  chart: {
+  type: 'bar',
+  height: 250,
+  toolbar: {
+      show: false
+    },
+},
+plotOptions: {
+  bar: {
+    horizontal: false,
+    columnWidth: '55%',
+    endingShape: 'rounded'
+  },
+},
+dataLabels: {
+  enabled: false
+},
+stroke: {
+  show: true,
+  width: 2,
+  colors: ['transparent']
+},
+xaxis: {
+  categories: ['Jun', 'Jul', 'Aug', 'yesterday', 'Today'],
+},
+yaxis: {
+  title: {
+    text: '$ (thousands)'
+  }
+},
+
+grid: {
+  strokeDashArray: 5,
+},
+fill: {
+  opacity: 1
+},
+tooltip: {
+  y: {
+    formatter: function (val) {
+      return "$ " + val + " thousands"
+    }
+  }
+}
+};
+
+var chart = new ApexCharts(document.querySelector("#cancle_Order"), options);
+chart.render();
+// ------------------------------------
+var options = {
+  series: [{
+  name: 'Net Profit',
+  data: [44, 55, 57, 56, 61]
+}],
+  chart: {
+  type: 'bar',
+  height: 250,
+  toolbar: {
+      show: false
+    },
+},
+plotOptions: {
+  bar: {
+    horizontal: false,
+    columnWidth: '55%',
+    endingShape: 'rounded'
+  },
+},
+dataLabels: {
+  enabled: false
+},
+stroke: {
+  show: true,
+  width: 2,
+  colors: ['transparent']
+},
+xaxis: {
+  categories: ['Jun', 'Jul', 'Aug', 'yesterday', 'Today'],
+},
+yaxis: {
+  title: {
+    text: '$ (thousands)'
+  }
+},
+
+grid: {
+  strokeDashArray: 5,
+},
+fill: {
+  opacity: 1
+},
+tooltip: {
+  y: {
+    formatter: function (val) {
+      return "$ " + val + " thousands"
+    }
+  }
+}
+};
+
+var chart = new ApexCharts(document.querySelector("#Order_retun"), options);
+chart.render();

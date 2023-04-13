@@ -238,3 +238,11 @@ ul{
 .Dashboard_com_body_inner{
     background: #ffffff;
 }
+/* #myTabContent{
+    width: calc(100% - 200px);
+    margin-left: auto;
+} */
+.tab_sidebar_main:hover.Dashboard_detail{
+    width: calc(100% - 200px) !important;
+    margin-left: auto !important;
+}
