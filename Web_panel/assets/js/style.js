@@ -11,7 +11,7 @@
         document.querySelector('#navbarSideCollapse-1').addEventListener('click', function() {
           document.querySelector('.offcanvas-collapse').classList.toggle('open')
       })
-        }, 100);
+        }, 500);
 $(function(){
   $('a').click(function(){
       $('a.active-line').removeClass('active-line');

@@ -29,6 +29,7 @@ $(".contact_details_close_button").on("click", function () {
 // ---------------------------
 
 var options = {
+  colors:['#F44336'],
     series: [{
     name: 'Net Profit',
     data: [44, 55, 57, 56, 61]
@@ -86,6 +87,7 @@ grid: {
 
 
 var options = {
+  colors:['#E91E63'],
     series: [{
     name: 'Net Profit',
     data: [44, 55, 57, 56, 61]
@@ -167,6 +169,7 @@ var options = {
   // -----------------------------------------
   
 var options = {
+  colors:['#9C27B0'],
   series: [{
   name: 'Net Profit',
   data: [44, 55, 57, 56, 61]
@@ -273,3 +276,10 @@ tooltip: {
 
 var chart = new ApexCharts(document.querySelector("#Order_retun"), options);
 chart.render();
+// ---------------------
+function addTextInput() {
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "text");
+  x.setAttribute("name", "textInput");
+  document.getElementById("myForm").appendChild(x)
+}
