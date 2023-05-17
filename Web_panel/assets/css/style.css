@@ -1326,7 +1326,7 @@ body{
     padding: 10px 0px;
 }
 .loose-diamonds-menu-section ul{
-    margin: 0px auto;
+    /* margin: 0px auto; */
     padding: 0px;
     width: 525px;
     list-style: none;
@@ -1611,6 +1611,9 @@ font-size: 30px;
 }
 .eye-icon:hover{
     cursor: pointer;
+}
+.cut-input-filed{
+    margin-top: 15px;
 }
 .loose-diamonds-menu-section .cut-input-filed #myTab li .nav-link{
     height: 31px;
@@ -2574,4 +2577,7 @@ font-size: 30px;
 }
 .commen-top-up{
     cursor: pointer;
+}
+.diamonds-style a{
+    color: #000 !important;
 }

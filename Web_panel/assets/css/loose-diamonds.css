@@ -86,3 +86,6 @@
     background: #bda2ab;
 }
 /*--- /.price-range-slider ---*/
+.loose_comman{
+    min-width: 635px;
+}

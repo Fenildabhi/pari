@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" class="">
     <link rel="stylesheet" href="assets/css/stylesheet.css" class="" />
     <link rel="stylesheet" href="assets/css/index.css" class="" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -102,19 +104,26 @@
                                         <span>Order</span>
                                     </button>
                                 </li>
-                                <li class="nav-item" role="presentation" view="schedule_value">
+                                <!-- <li class="nav-item" role="presentation" view="schedule_value">
                                     <button class="nav-link" id="schedule-value-tab" data-bs-toggle="tab"
                                         data-bs-target="#schedule-value" type="button" role="tab"
                                         aria-controls="schedule-value" aria-selected="false">
                                         <i class="fas fa-luggage-cart"></i>
                                         <span>Order</span>
                                     </button>
-                                </li>
+                                </li> -->
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="notes-tab" data-bs-toggle="tab" data-bs-target="#notes"
+                                    <button class="nav-link" id="Payment-1" data-bs-toggle="tab" data-bs-target="#payment_1"
                                         type="button" role="tab" aria-controls="notes" aria-selected="false">
                                         <i class="fas fa-rupee-sign"></i>
                                         <span>Payment</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="Poster-1" data-bs-toggle="tab" data-bs-target="#Poster_1"
+                                        type="button" role="tab" aria-controls="notes" aria-selected="false">
+                                            <i class="far fa-images"></i>
+                                        <span>Poster</span>
                                     </button>
                                 </li>
                             </ul>
@@ -3387,6 +3396,340 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="tab-pane fade" id="payment_1" role="tabpanel" aria-labelledby="Payment-1">
+                            <div class="">
+                                 <div class="payment_tab">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="payment_over_view" data-bs-toggle="tab" data-bs-target="#payment_over_view_1" type="button" role="tab" aria-controls="home" aria-selected="true">Payment Overview</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">All Statements</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="payment_over_view_1" role="tabpanel" aria-labelledby="payment_over_view">
+                                            <div class="container">
+                                                <div class="payment_over_view_table">
+                                                    <table class="table table-bordered border-dark">
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col"></th>
+                                                                <th scope="col">Total Balance</th>
+                                                                <th scope="col">Funds Available</th>
+                                                                <!-- <th scope="col">Handle</th> -->
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row">Electronic Transactions (Credit Card/Net Banking/GC)</th>
+                                                                <td>₹5000.00</td>
+                                                                <td>₹3000.00</td>
+                                                                <!-- <td>@mdo</td> -->
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Cash On Delivery Transactions and Non-Transactional Fees</th>
+                                                                <td>₹2000.00</td>
+                                                                <td>₹1000.00</td>
+                                                                <!-- <td>@fat</td> -->
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Total</th>
+                                                                <td>₹7000.00</td>
+                                                                <td>₹4000.00</td>
+                                                                <!-- <td></td> -->
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="payment_over_view_table">
+                                                    <table class="table border-secondary table-bordered">
+                                                        <thead class="table-secondary">
+                                                          <tr>
+                                                            <th scope="col">Date</th>
+                                                            <th scope="col">Transaction type</th>
+                                                            <th scope="col">Order ID</th>
+                                                            <th scope="col">Product Details</th>
+                                                            <th scope="col">Total product charges</th>
+                                                            <th scope="col">Amazon fees</th>
+                                                            <th scope="col">Other</th>
+                                                            <th scope="col">Total</th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021</th>
+                                                            <td>Order Payment</td>
+                                                            <td>407-0773572-4961951</td>
+                                                            <td>14K WHITE GOLD WEDDING RING</td>
+                                                            <td>₹387.38</td>
+                                                            <td>-₹67.13</td>
+                                                            <td>-₹7.74</td>
+                                                            <td>₹327.99</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021</th>
+                                                            <td>Order Payment</td>
+                                                            <td>407-0773572-4961951</td>
+                                                            <td>14K WHITE GOLD WEDDING RING</td>
+                                                            <td>₹387.38</td>
+                                                            <td>-₹67.13</td>
+                                                            <td>-₹7.74</td>
+                                                            <td>₹327.99</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021</th>
+                                                            <td>Order Payment</td>
+                                                            <td>407-0773572-4961951</td>
+                                                            <td>14K WHITE GOLD WEDDING RING</td>
+                                                            <td>₹387.38</td>
+                                                            <td>-₹67.13</td>
+                                                            <td>-₹7.74</td>
+                                                            <td>₹327.99</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021</th>
+                                                            <td>Order Payment</td>
+                                                            <td>407-0773572-4961951</td>
+                                                            <td>14K WHITE GOLD WEDDING RING</td>
+                                                            <td>₹387.38</td>
+                                                            <td>-₹67.13</td>
+                                                            <td>-₹7.74</td>
+                                                            <td>₹327.99</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021</th>
+                                                            <td>Order Payment</td>
+                                                            <td>407-0773572-4961951</td>
+                                                            <td>14K WHITE GOLD WEDDING RING</td>
+                                                            <td>₹387.38</td>
+                                                            <td>-₹67.13</td>
+                                                            <td>-₹7.74</td>
+                                                            <td>₹327.99</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021</th>
+                                                            <td>Order Payment</td>
+                                                            <td>407-0773572-4961951</td>
+                                                            <td>14K WHITE GOLD WEDDING RING</td>
+                                                            <td>₹387.38</td>
+                                                            <td>-₹67.13</td>
+                                                            <td>-₹7.74</td>
+                                                            <td>₹327.99</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021</th>
+                                                            <td>Order Payment</td>
+                                                            <td>407-0773572-4961951</td>
+                                                            <td>14K WHITE GOLD WEDDING RING</td>
+                                                            <td>₹387.38</td>
+                                                            <td>-₹67.13</td>
+                                                            <td>-₹7.74</td>
+                                                            <td>₹327.99</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021</th>
+                                                            <td>Order Payment</td>
+                                                            <td>407-0773572-4961951</td>
+                                                            <td>14K WHITE GOLD WEDDING RING</td>
+                                                            <td>₹387.38</td>
+                                                            <td>-₹67.13</td>
+                                                            <td>-₹7.74</td>
+                                                            <td>₹327.99</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021</th>
+                                                            <td>Order Payment</td>
+                                                            <td>407-0773572-4961951</td>
+                                                            <td>14K WHITE GOLD WEDDING RING</td>
+                                                            <td>₹387.38</td>
+                                                            <td>-₹67.13</td>
+                                                            <td>-₹7.74</td>
+                                                            <td>₹327.99</td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+                                                      
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <div class="container">
+                                                <div class="All_transection d-flex align-items-center">
+                                                    <div class="d-block transection_Account_type">
+                                                        <div>
+                                                            <label for="">Account Type</label>
+                                                        </div>
+                                                        <div>
+                                                            <select class="transection_payment_type select2">
+                                                                <option value="one">Electronic Transactions (Credit Card/Net Banking/GC)</option>
+                                                                <option value="two">Cash On Delivery Transactions and Non-Transactional Fees</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div>
+                                                            <label for="start">
+                                                                From</label>
+                                                        </div>
+                                                        <div>
+                                                            <input type="date" id="start" name="trip-start"
+                                                            value="2018-07-22">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div>
+                                                            <label for="start">TO</label>
+                                                        </div>
+                                                        <div>
+                                                            <input type="date" id="start" name="trip-start"
+                                                            value="2018-07-22">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="All_transection_table">
+                                                    <table class="table border-secondary table-bordered">
+                                                        <thead class="table-secondary">
+                                                          <tr>
+                                                            <th scope="col">Statement Period</th>
+                                                            <th scope="col">Beginning Balance</th>
+                                                            <th scope="col">Sales</th>
+                                                            <th scope="col">Refunds</th>
+                                                            <th scope="col">Expenses</th>
+                                                            <th scope="col">Others</th>
+                                                            <th scope="col">Payout Amount</th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021 - 7/5/2021</th>
+                                                            <td>₹13,433.21</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹0.00</td>
+                                                            <td>-₹1,624.29</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹11,808.92</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021 - 7/5/2021</th>
+                                                            <td>₹13,433.21</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹0.00</td>
+                                                            <td>-₹1,624.29</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹11,808.92</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021 - 7/5/2021</th>
+                                                            <td>₹13,433.21</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹0.00</td>
+                                                            <td>-₹1,624.29</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹11,808.92</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021 - 7/5/2021</th>
+                                                            <td>₹13,433.21</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹0.00</td>
+                                                            <td>-₹1,624.29</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹11,808.92</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021 - 7/5/2021</th>
+                                                            <td>₹13,433.21</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹0.00</td>
+                                                            <td>-₹1,624.29</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹11,808.92</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021 - 7/5/2021</th>
+                                                            <td>₹13,433.21</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹0.00</td>
+                                                            <td>-₹1,624.29</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹11,808.92</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021 - 7/5/2021</th>
+                                                            <td>₹13,433.21</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹0.00</td>
+                                                            <td>-₹1,624.29</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹11,808.92</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2/5/2021 - 7/5/2021</th>
+                                                            <td>₹13,433.21</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹0.00</td>
+                                                            <td>-₹1,624.29</td>
+                                                            <td>₹0.00</td>
+                                                            <td>₹11,808.92</td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Poster_1" role="tabpanel" aria-labelledby="Poster-1">
+                            <div class="container">
+                                <div class="">
+                                    <ul class="banner_lists">
+                                        <li class="banner_collapse_main">
+                                            <div class="d-flex align-items-center">
+                                                <a class="banner_collapse" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                    <i class="fas fa-chevron-up"></i>
+                                                    <!-- <i class="fas fa-chevron-down"></i> -->
+                                                </a>
+                                                <span>main banner</span>
+                                            </div>
+                                              <div class="collapse" id="collapseExample">
+                                                <div class="card card-body mt-2">
+                                                   <div class="old_photos">
+                                                        <img src="../Web_panel/assets/image/1-image-bg.jpg" lass="img-fluid 
+                                                        " alt="bg-main-image" class="not-responsive-main-baner">
+                                                        <div>
+                                                            <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+                                                            <div class="upload_new_photo">
+                                                                <div class="upload-files-container">
+                                                                    <div class="drag-file-area">
+                                                                        <span class="material-icons-outlined upload-icon"> file_upload </span>
+                                                                        <h3 class="dynamic-message"> Drag & drop any file here </h3>
+                                                                        <label class="label">  <span class="browse-files"> <input type="file" class="default-file-input"/> <span class="browse-files-text"></span> <span>   </span> </span> </label>
+                                                                    </div>
+                                                                    <span class="cannot-upload-message"> <span class="material-icons-outlined">error</span> Please select a file first <span class="material-icons-outlined cancel-alert-button">cancel</span> </span>
+                                                                    <div class="file-block">
+                                                                        <div class="file-info"> <span class="material-icons-outlined file-icon">description</span> <span class="file-name"> </span> | <span class="file-size">  </span> </div>
+                                                                        <span class="material-icons remove-file-icon">delete</span>
+                                                                        <div class="progress-bar"> </div>
+                                                                    </div>
+                                                                    <button type="button" class="upload-button"> Upload </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                   </div>
+                                                </div>
+                                              </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -3398,6 +3741,7 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="assets/js/index.js"></script>
     <script src="assets/js/style.js"></script>
 </body>
