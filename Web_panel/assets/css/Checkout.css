@@ -1,0 +1,96 @@
+.select-Add{
+    margin-left: 15px;
+    font-size: 24px;
+}
+.select-Add-main b{
+    font-size: 24px;
+}
+.select-Add-main {
+    margin: 20px 0px;
+}
+.select-Add-main{
+    border-bottom: 1px solid #000;
+}
+.comman_slider{
+    border: 1px solid #D5D9D9;
+    border-radius: 8px;
+}
+.most_used{
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+.Add_list{
+    padding: 5px;
+}
+.Add_recent{
+    background-color: #FCF5EE;
+    border: 1px solid #FBD8B4;  
+    margin: 10px;
+    border-radius: 5px;
+}
+.Add_new_address{
+    padding: 0px 32px;
+    margin: 10px 0px;
+}
+.Order-Summary{
+    border: 1px solid #cccccc;
+    padding: 25px 30px;
+}
+.Add_list .form-check{
+    margin: 20px;
+}
+.checkout_header{
+    text-align: center;
+    background: #e5e3e3;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.order-track {
+    padding: 0 1rem;
+    /* border-top: 1px dashed #2c3e50; */
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.order-track-step {
+    display: flex;
+    height: 7rem;
+}
+.order-track-step:last-child {
+    overflow: hidden;
+    height: 4rem;
+}
+.order-track-step:last-child .order-track-status span:last-of-type {
+    display: none;
+}
+.order-track-status {
+    margin-right: 1.5rem;
+    position: relative;
+}
+.order-track-status-dot {
+    display: block;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #f05a00;
+}
+.order-track-status-line {
+    display: block;
+    margin: 0 auto;
+    width: 2px;
+    height: 7rem;
+    background: #f05a00;
+}
+.order-track-text-stat {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.order-track-text-sub {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.order-track {
+    transition: all 0.3s height 0.3s;
+    transform-origin: top center;
+}

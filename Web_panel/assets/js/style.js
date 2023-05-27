@@ -173,7 +173,7 @@ $(window).scroll(function() {
       })();
 
       (function() {
-        const heart = document.getElementById('heart');
+        const heart = document.getElementsByClassName('heart');
         heart.addEventListener('click', function() {
           heart.classList.toggle('red');
         });
@@ -191,3 +191,35 @@ $(window).scrollTop(position);
         function scrollToTop() {
           window.scrollTo(0, 0);
       }
+      // -------------------------------------------
+      const form = document.querySelector('form');
+const input = document.querySelector('.search-input');
+const clear = document.querySelector('.clear');
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+const recognition = new SpeechRecognition();
+
+const showClear = () => clear.classList.add('visible');
+
+function convert(e) {
+  recognition.lang = navigator.language || 'en-US';
+  recognition.interimResults = true;
+  input.value = e.results[0][0].transcript;
+  showClear();
+  input.focus();
+}
+
+function reset() {
+  clear.classList.remove('visible');
+  input.value = '';
+  input.focus();
+}
+
+function init(e) {
+  e.target.matches('.magnify') && form.submit();
+  e.target.matches('.clear') && reset();
+  e.target.matches('.mic') && recognition.start();
+}
+
+form.addEventListener('keydown',showClear,false);
+form.addEventListener('click',init,false);
+recognition.addEventListener('result',convert,false);

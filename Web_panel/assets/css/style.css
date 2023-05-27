@@ -1328,7 +1328,7 @@ body{
 .loose-diamonds-menu-section ul{
     /* margin: 0px auto; */
     padding: 0px;
-    width: 525px;
+    width: 100%;
     list-style: none;
     border: 1px solid #cccccc;
     border-right: 0px;
@@ -1588,12 +1588,12 @@ font-size: 30px;
     color: grey;  
 }
   
-#heart.red {
+heart.red {
     color: red;
 }
 .loose-diamonds-menu-section #myTab li .nav-link{
     height: 71px;
-    width: 104px;
+    width: 100%;
     display: flex;
     align-items: center;    
     color: #575757;
@@ -1650,7 +1650,7 @@ font-size: 30px;
 
 .loose-diamonds-menu-section .color-input-filed #myTab li .nav-link{
     height: 31px;
-    width: 65px;
+    /* width: 65px; */
     justify-content: center;
     white-space: nowrap;
     display: flex;
@@ -1659,7 +1659,7 @@ font-size: 30px;
 }
 .loose-diamonds-menu-section .Origin-input-filed #myTab li .nav-link{
     height: 31px;
-    width: 262px;
+    /* width: 262px; */
     justify-content: center;
     white-space: nowrap;
     display: flex;
@@ -1668,7 +1668,7 @@ font-size: 30px;
 }
 .loose-diamonds-menu-section .Clarity-input-filed #myTab li .nav-link{
     height: 31px;
-    width: 58px;
+    /* width: 58px; */
     justify-content: center;
     white-space: nowrap;
     display: flex;
@@ -2581,3 +2581,54 @@ font-size: 30px;
 .diamonds-style a{
     color: #000 !important;
 }
+/* -------------------- */
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 250px;
+    background-color: rgb(193 193 193 / 40%);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    font: 100 0.95rem helvetica,sans-serif;
+    padding: 10px 20px;
+  }
+  
+  .search-input:focus { background-color: rgb(193 193 193 / 40%); }
+  
+  ::placeholder { color: rgba(0, 0, 0, 0.5); }
+  
+  ::-webkit-search-cancel-button {
+    display: none;
+    pointer-events: none;
+  }
+  
+  .search-icon {
+    position: absolute;
+    font-size: 1.25rem;
+    color: rgba(2, 2, 2, 0.85);
+    cursor: pointer;
+  }
+  
+  .magnify { left: 1rem; }
+  
+  .clear {
+    right: 3rem;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .clear:hover { color: rgba(0, 0, 0, 0.85); }
+  
+  .mic {
+    right: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .visible { display: block; }
