@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css.map" class="">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" class="">
+    <link rel="stylesheet" href="assets/css/your_order.css" class="">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section>
+        <div class="container">
+            <div class="Your_Orders">
+                <h3>Your Orders</h3>
+            </div>
+            <div class="filter_listing_page d-flex align-items-center justify-content-between">
+               
+                <div class="d-flex align-items-center">
+                    <div>
+                        <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                            <input type="text" placeholder="Search.." name="search2">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <!-- <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Last day</a></li>
+                          <li><a class="dropdown-item" href="#">Last 3 days</a></li>
+                          <li><a class="dropdown-item" href="#">Last 7 days</a></li>
+                          <li><a class="dropdown-item" href="#">Last 14 days</a></li>
+                          <li><a class="dropdown-item" href="#">Last 30 days</a></li>
+                          <li><a class="dropdown-item" href="#">Last 90 days</a></li>
+                          <li><a class="dropdown-item" href="#">Last 180 days</a></li>
+                          <li><a class="dropdown-item" href="#">Last 365 days</a></li>
+                        </ul>
+                      </div> -->
+                      <select class="js-example-basic-single" id="your_order_days" name="state">
+                        <option value="AL">Last day</option>
+                        <option value="WY">Last 3 days</option>
+                        <option value="AL">Last 7 days</option>
+                        <option value="WY">Last 14 days</option>
+                        <option value="AL">Last 30 days</option>
+                        <option value="WY">Last 90 days</option>
+                        <option value="AL">Last 180 days</option>
+                        <option value="WY">Last 365 days</option>
+                      </select>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="order" data-bs-toggle="tab" data-bs-target="#order_tab" type="button" role="tab" aria-controls="home" aria-selected="true">Order</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="Not_Yet_Shipped" data-bs-toggle="tab" data-bs-target="#Not_Yet_Shipped_tab" type="button" role="tab" aria-controls="contact" aria-selected="false">Not Yet Shipped</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Cancelled" data-bs-toggle="tab" data-bs-target="#Cancelled_tab" type="button" role="tab" aria-controls="contact" aria-selected="false">Cancelled</button>
+                          </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="order_tab" role="tabpanel" aria-labelledby="order">
+                            <div class="re_order">
+                                <div class="old-order-detail d-flex align-items-center justify-content-between">
+                                    <div class="d-block">
+                                        <div>ORDER PLACED:</div>
+                                        <div class="comman_Ans">3 September 2021</div>
+                                    </div>
+                                    <div class="d-block">
+                                        <div>SHIP TO:</div>
+                                        <div class="comman_Ans">Fenil Dabhi</div>
+                                    </div>
+                                    <div class="d-block">
+                                        <div>TOTAL:</div>
+                                        <div class="comman_Ans"><i class="fas fa-rupee-sign"></i>18,990.00</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="old-order-description d-flex justify-content-between">
+                                        <img src="assets/image/ring-2.jpg" alt="">
+                                        <div class="product_name_block">
+                                            <div>
+                                                <b>14K WHITE GOLD WEDDING RING LOW DOME COMFORT FIT (2MM)</b>
+                                            </div>
+                                            <div>
+                                                <p><b>ASIN: </b><span>BBRT3RT33</span></p>
+                                            </div>
+                                            <div>
+                                                <p><b>SKU: </b><span>GOLD WEDDING RING   </span></p>
+                                            </div>
+                                            <div>
+                                                <p><b>Quantity: </b><span>1</span></p>
+                                            </div>
+                                            <div class="product_price">
+                                                <p><b>item subtotal: </b><span><i class="fas fa-rupee-sign"></i>28,000.00</span></p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="order_action_inner">
+                                                <button type="button" class="btn btn-warning">Buy it again</button>
+                                            </div>
+                                            <div class="order_action_inner mt-3">
+                                                <button type="button" class="btn btn-light">Write a product review</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Not_Yet_Shipped_tab" role="tabpanel" aria-labelledby="Not_Yet_Shipped">
+                            <div class="re_order">
+                                <div class="old-order-detail d-flex align-items-center justify-content-between">
+                                    <div class="d-block">
+                                        <div>ORDER PLACED:</div>
+                                        <div class="comman_Ans">3 September 2021</div>
+                                    </div>
+                                    <div class="d-block">
+                                        <div>SHIP TO:</div>
+                                        <div class="comman_Ans">Fenil Dabhi</div>
+                                    </div>
+                                    <div class="d-block">
+                                        <div>TOTAL:</div>
+                                        <div class="comman_Ans"><i class="fas fa-rupee-sign"></i>18,990.00</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="old-order-description d-flex justify-content-between">
+                                        <img src="assets/image/ring-2.jpg" alt="">
+                                        <div class="product_name_block">
+                                            <div>
+                                                <b>14K WHITE GOLD WEDDING RING LOW DOME COMFORT FIT (2MM)</b>
+                                            </div>
+                                            <div>
+                                                <p><b>ASIN: </b><span>BBRT3RT33</span></p>
+                                            </div>
+                                            <div>
+                                                <p><b>SKU: </b><span>GOLD WEDDING RING   </span></p>
+                                            </div>
+                                            <div>
+                                                <p><b>Quantity: </b><span>1</span></p>
+                                            </div>
+                                            <div class="product_price">
+                                                <p><b>item subtotal: </b><span><i class="fas fa-rupee-sign"></i>28,000.00</span></p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="order_action_inner">
+                                                <button type="button" class="btn btn-warning">Buy it again</button>
+                                            </div>
+                                            <div class="order_action_inner mt-3">
+                                                <button type="button" class="btn btn-light">Write a product review</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Cancelled_tab" role="tabpanel" aria-labelledby="Cancelled">
+                            <div class="re_order">
+                                <div class="old-order-detail d-flex align-items-center justify-content-between">
+                                    <div class="d-block">
+                                        <div>ORDER PLACED:</div>
+                                        <div class="comman_Ans">3 September 2021</div>
+                                    </div>
+                                    <div class="d-block">
+                                        <div>SHIP TO:</div>
+                                        <div class="comman_Ans">Fenil Dabhi</div>
+                                    </div>
+                                    <div class="d-block">
+                                        <div>TOTAL:</div>
+                                        <div class="comman_Ans"><i class="fas fa-rupee-sign"></i>18,990.00</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="old-order-description d-flex justify-content-between">
+                                        <img src="assets/image/ring-2.jpg" alt="">
+                                        <div class="product_name_block">
+                                            <div>
+                                                <b>14K WHITE GOLD WEDDING RING LOW DOME COMFORT FIT (2MM)</b>
+                                            </div>
+                                            <div>
+                                                <p><b>ASIN: </b><span>BBRT3RT33</span></p>
+                                            </div>
+                                            <div>
+                                                <p><b>SKU: </b><span>GOLD WEDDING RING   </span></p>
+                                            </div>
+                                            <div>
+                                                <p><b>Quantity: </b><span>1</span></p>
+                                            </div>
+                                            <div class="product_price">
+                                                <p><b>item subtotal: </b><span><i class="fas fa-rupee-sign"></i>28,000.00</span></p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="order_action_inner">
+                                                <button type="button" class="btn btn-warning">Buy it again</button>
+                                            </div>
+                                            <div class="order_action_inner mt-3">
+                                                <button type="button" class="btn btn-light">Write a product review</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+   <div id="footer"></div>
+</body>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> -->
+<script src="assets/js/style.js"></script>
+<script src="assets/js/your_order.js"></script>
+
+</html>

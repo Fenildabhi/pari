@@ -23,6 +23,9 @@
 .mb-10{
     margin-bottom: 10px;
 }
+.mt-10{
+    margin-top: 10px;
+}
 a{
     text-decoration: none !important;
 }
@@ -106,7 +109,7 @@ body{
     color: #575757 !important;
 }
 .header-icon-second{
-    padding: 0px 15px; 
+    padding: 0px 20px; 
 }
 .icon-list-left{
     display: flex;
@@ -890,13 +893,13 @@ body{
 }
 .shoping-icon{
     position: relative;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 }
 .shoping-icon::before{
     position: absolute;
     content: "(0)";
     top: -5px;
-    right: -10px;
+    right: -1px;
 }
 .heart-icon{
     position: relative;
@@ -906,7 +909,7 @@ body{
     position: absolute;
     content: "(0)";
     top: -5px;
-    right: -10px;
+    right: -1px;
 }
 .header-icon-second img{
     margin-left: 15px;
@@ -1445,8 +1448,7 @@ body{
 input[type=number] {
 	border: 1px solid #ddd;
 	text-align: center;
-	font-size: 1.6em;
-	-moz-appearance: textfield;
+	/* font-size: 1.6em; */
 }
 
 input[type=number]::-webkit-outer-spin-button,
@@ -1460,7 +1462,6 @@ input[type=number]:out-of-range {
 }
 
 input[type=range] {
-	-webkit-appearance: none;
 	width: 100%;
 }
 
