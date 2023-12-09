@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css" class="">
-    <link rel="stylesheet" href="assets/css/address.css" class="">
+    <link rel="stylesheet" href="assets/css/index.css" class="">
+    <link rel="stylesheet" href="assets/css/re-address.css" class="">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div id="header"></div>
+    <div id="sidemenu"></div>
 
-    <section class="my-5">
+    <section class="mt-5 hide">
         <div class="container">
             <div class="Your_Orders">
                 <h3>Your Addresses  </h3>
@@ -370,14 +370,19 @@
         </div>
       </div>
 
-   <div id="footer"></div>
 </body>
+<script>
+    $('#countries').select2({
+    dropdownParent: $('.countries_drop')
+
+  });
+</script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script src="assets/js/address.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> -->
-<script src="assets/js/style.js"></script>
+<script src="assets/js/index.js"></script>
 
 </html>

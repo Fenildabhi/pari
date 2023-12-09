@@ -5,34 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css.map" class="">
     <link rel="stylesheet" href="assets/css/register.css" class="">
 </head>
 <body>
     <section>
         <form>
             <h1>Register</h1>
-            <div class="inputbox">
-                <ion-icon name="mail-outline"></ion-icon>
-                <input type="text" required>
-                <label for="">Your name</label>
+            <div class="row">
+                <div class="col-6">
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="text" value="Fenil" required>
+                        <label for="">Your name</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="tel" value="9876543212" required>
+                        <label for="">Mobile number</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" value="nikhilsakariya6666@gmail.com" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" value="98765" required>
+                        <label for="">Password</label>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="text" required>
+                        <label for="">Address</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="tel" required>
+                        <label for="">Enter Pincode</label>
+                    </div>
+                    
+                </div>
             </div>
-            <div class="inputbox">
-                <ion-icon name="mail-outline"></ion-icon>
-                <input type="tel" required>
-                <label for="">Mobile number</label>
-            </div>
-            <div class="inputbox">
-                <ion-icon name="mail-outline"></ion-icon>
-                <input type="email" required>
-                <label for="">Email</label>
-            </div>
-            <div class="inputbox">
-                <ion-icon name="lock-closed-outline"></ion-icon>
-                <input type="password" required>
-                <label for="">Password</label>
-            </div>
-            <div class="forget">
-                <label for=""><input type="checkbox">Remember Me <a href="#">Forget Password</a></label>
+            
+            <div class="forget d-block">
+                <label for=""><input type="checkbox">Remember Me <a href="#"><b>Forget Password</b></a></label>
+                <label for=""><input type="checkbox">I have read and agree to the Terms & conditions*</label>
             </div>
             <button>Register</button>
             <div class="register">
@@ -40,5 +61,6 @@
             </div>
         </form>
     </section>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

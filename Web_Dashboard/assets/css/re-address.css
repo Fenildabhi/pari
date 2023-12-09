@@ -1,0 +1,44 @@
+.add{
+    border: 1px dashed #C7C7C7;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.Add_new_address{
+    margin: 0px 50px;
+}
+.old_add{
+    padding: 10px;
+}
+.old-add-main .form-check{
+    margin: 0px 10px;
+}
+.old-add-main{
+    /* border: 1px dashed #C7C7C7; */
+    box-shadow: 0px 0px 3px 1px #c9c5c5;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+#countries + .select2.select2-container{
+    width: 100% !important;
+}
+#select2-countries-results{
+    width: 100%;
+}
+.form_control{
+    margin: 10px 0px;
+}
+input{
+    border: 1px solid #888C8C !important;
+}
+.form_control input:focus{
+    border-color: #888C8C !important;
+}

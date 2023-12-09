@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css" class="">
+    <link rel="stylesheet" href="assets/css/index.css" class="">
     <link rel="stylesheet" href="assets/css/account_info.css" class="">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div id="header"></div>
 
     <section>
+        <div id="sidemenu"></div>
         <div class="container">
             <div class="Your_Orders">
                 <h3>Seller Account Information</h3>
@@ -32,7 +32,37 @@
                                 <h4>Payment Information</h4>
                             </div>
                             <div class="comman_info">
-                                <a href="#">Bank Account Information</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Bank Account Information</a>
+                            </div>
+                        </div>
+
+                        <div class="comman_border">
+                            <div class="comman_detail">
+                                <h4>Business Information</h4>
+                            </div>
+                            <div class="comman_info">
+                                <a href="#">Business Address and Phone Number</a>
+                            </div>
+                            <div class="comman_info">
+                                <a href="#">Invoice Address</a>
+                            </div>
+                        </div>
+
+                        <div class="comman_border">
+                            <div class="comman_detail">
+                                <h4>Shipping and Returns Information</h4>
+                            </div>
+                            <div class="comman_info">
+                                <a href="#">Return Information</a>
+                            </div>
+                        </div>
+
+                        <div class="comman_border">
+                            <div class="comman_detail">
+                                <h4>Tax Information</h4>
+                            </div>
+                            <div class="comman_info">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#gstmodal">Manage GST Details</a>
                             </div>
                         </div>
                     </div>
@@ -40,16 +70,98 @@
             </div>
             
         </div>
-    </section>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Bank Account</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div>
+                    <h3>Deposit method</h3>
+                    <form class="bank_account_info">
+                        <div class="input-filed d-flex">
+                            <label for="exampleInputEmail1" class="form-label">Account Holder's Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Account Holder's Name">
+                        </div>
 
-   <div id="footer"></div>
+                        <div class="input-filed account_type_main d-flex">
+                            <label for="exampleInputPassword1" class="form-label">Account Type</label>
+                            <select class=" select2 ml-2" id="account_type" name="state">
+                                <option value="AL">Savings</option>
+                                <option value="WY">Overdraft</option>
+                                <option value="AL">Current</option>
+                              </select>
+                        </div>
+
+                        <div class="input-filed d-flex">
+                            <label for="exampleInputPassword1" class="form-label">Bank Account Number
+                            </label>
+                            <input type="text" class="form-control"  placeholder="Bank Account Number">
+                        </div>
+
+                        <div class="input-filed d-flex">
+                            <label for="exampleInputPassword1" class="form-label">Re-type Bank Account Number</label>
+                            <input type="text" class="form-control"  placeholder="Re-type Account Number">
+                        </div>
+
+                        <div class="input-filed d-flex">
+                            <label for="exampleInputPassword1" class="form-label">IFSC code</label>
+                            <input type="text" class="form-control"  placeholder="IFSC code">
+                        </div>
+
+                    </form>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <div class="modal fade" id="gstmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Manage GST</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="input-filed d-flex">
+                    <label for="exampleInputPassword1" class="form-label">Seller Legal Name
+                    </label>
+                    <input type="text" class="form-control"  placeholder="Seller Legal Name">
+                </div>
+
+                <div class="input-filed d-flex">
+                    <label for="exampleInputPassword1" class="form-label">GST Number</label>
+                    <input type="text" class="form-control"  placeholder="GST Number">
+                </div>
+
+                <div class="input-filed d-flex">
+                    <label for="exampleInputPassword1" class="form-label">PAN</label>
+                    <input type="text" class="form-control"  placeholder="PAN">
+                </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> -->
-<script src="assets/js/style.js"></script>
-<script src="assets/js/your_order.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/account.js"></script>
+
 
 </html>

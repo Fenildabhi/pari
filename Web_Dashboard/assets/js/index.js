@@ -1,4 +1,9 @@
-$(".tab_sidebar_main").hover(
+$(function(){
+  $("#sidemenu").load("sidemenu.html"); 
+});
+    
+setTimeout(function(){
+  $(".tab_sidebar_main").hover(
     function () {
         $(".main_outer_wrapper").addClass("tab_sidebar_main_active");
     },
@@ -11,6 +16,7 @@ $(".sidebar_collapse_button").hover(
         $(".main_outer_wrapper").removeClass("tab_sidebar_main_active");
     }
 );
+}, 900);
 
 
 $(".view_all_field_button").on("click", function () {
@@ -397,3 +403,5 @@ removeFileButton.addEventListener("click", () => {
 	document.querySelector(".label").innerHTML = `<span class="browse-files"> <input type="file" class="default-file-input"/> <span class="browse-files-text"></span> <span></span> </span>`;
 	uploadButton.innerHTML = `Upload`;
 });
+
+

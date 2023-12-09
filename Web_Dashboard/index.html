@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/stylesheet.css" class="" />
     <link rel="stylesheet" href="assets/css/index.css" class="" />
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    
 </head>
 
 <body>
@@ -58,103 +59,9 @@
                 </li>
             </ul>
         </div> -->
-        <div class="main_outer_wrapper">
-            <div class="projectBlock project-detail">
-                <div class="header_admin d-flex align-items-center justify-content-between">
-                    <div></div>
-                   <div class="d-flex align-items-center">
-                        <div class="notification_icon">
-                            <button><i class="far fa-bell"></i></button>
-                        </div>
-                        <div class="user">
-                            <button class="user_inner dropdown-toggle" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"><i class="far fa-user"></i></button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item " href="#">Account Info</a></li>
-                                <li><a class="dropdown-item" href="#">Login Settings</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Logout</a></li>
-                              </ul>
-                        </div>
-                   </div>
-                </div>
-                <div class="tab_sidebar_main">
-                    <div class="back_button d-flex align-items-center justify-content-between">
-                        <a class="d-flex align-items-center font-bold" href="#" id="btnBackCardViewProject" p_pro=""
-                            onclick="showModuleListView(); return false;">
-                            <i class="fas fa-angle-left mr-20 d-flex align-items-center justify-content-center"></i>
-                            <!-- <i class="fas fa-angle-left"></i> -->
-                            <span>Back</span>
-                        </a>
-                        <button class="sidebar_expand_button">
-                            <i class="fa-light fa-bars-sort expand_icon" data-tooltip-body="tooltip"
-                                data-original-title="Expand Sidebar"></i>
-                        </button>
-                        <button class="sidebar_collapse_button">
-                            <i class="fas fa-times collapse_icon" data-tooltip-body="tooltip"
-                                data-original-title="Collapse Sidebar"></i>
-                        </button>
-                    </div>
-                    <div class="sidebar_main_block">
-                        <div class="module-tabs project_details_tab_outer_block customScroll">
-                            <ul class="nav nav-tabs flex-column project_details_tab mt-12 mb-12" id="myTab"
-                                role="tablist">
-                                <li class="nav-item" role="presentation" view="summery">
-                                    <button class="nav-link active" id="Dashboard" data-bs-toggle="tab"
-                                        data-bs-target="#Dashboard_1" type="button" role="tab" aria-controls="summery"
-                                        aria-selected="false">
-                                        <i class="fas fa-chart-line"></i>
-                                        <span>Dashboard</span>
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="Inventory" data-bs-toggle="tab"
-                                        data-bs-target="#Inventory_1" type="button" role="tab" aria-controls="detail"
-                                        aria-selected="true" autocomplete="nope">
-                                            <i class="fas fa-boxes"></i>
-                                        <span>Inventory</span>
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="Product" data-bs-toggle="tab"
-                                        data-bs-target="#Product_1" type="button" role="tab" aria-controls="detail"
-                                        aria-selected="true" autocomplete="nope">
-                                        <i class="fas fa-plus-circle"></i>
-                                        <span>Add Product</span>
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="Order" data-bs-toggle="tab" data-bs-target="#Order_1"
-                                        type="button" role="tab" aria-controls="financial" aria-selected="false">
-                                        <i class="fas fa-luggage-cart"></i>
-                                        <span>Order</span>
-                                    </button>
-                                </li>
-                                <!-- <li class="nav-item" role="presentation" view="schedule_value">
-                                    <button class="nav-link" id="schedule-value-tab" data-bs-toggle="tab"
-                                        data-bs-target="#schedule-value" type="button" role="tab"
-                                        aria-controls="schedule-value" aria-selected="false">
-                                        <i class="fas fa-luggage-cart"></i>
-                                        <span>Order</span>
-                                    </button>
-                                </li> -->
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="Payment-1" data-bs-toggle="tab" data-bs-target="#payment_1"
-                                        type="button" role="tab" aria-controls="notes" aria-selected="false">
-                                        <i class="fas fa-rupee-sign"></i>
-                                        <span>Payment</span>
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="Poster-1" data-bs-toggle="tab" data-bs-target="#Poster_1"
-                                        type="button" role="tab" aria-controls="notes" aria-selected="false">
-                                            <i class="far fa-images"></i>
-                                        <span>Poster</span>
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <div>
+            <div>
+                <div id="sidemenu"></div>
                 <div class="Dashboard_detail">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="Dashboard_1" role="tabpanel"
@@ -422,21 +329,21 @@
                                                 <input type="text" class="form-control" id="exampleInputEmail1"
                                                     placeholder="Seller SKU">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label">Product Tax
                                                     Code</label>
                                                 <input type="text" class="form-control" id="exampleInputPassword1"
                                                     placeholder="Product Tax Code">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label"> Your
                                                     price</label>
                                                 <input type="text" class="form-control input-currency" width="20%"
                                                     id="exampleInputPassword1" placeholder="0.00">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label">Sale PriceSale
                                                     Price
@@ -444,54 +351,54 @@
                                                 <input type="text" class="form-control input-currency"
                                                     id="exampleInputPassword1" placeholder="0.00">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label">Sale Start
                                                     Date</label>
                                                 <input type="date" class="form-control input-currency"
                                                     id="exampleInputPassword1">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label">Sale End
                                                     Date</label>
                                                 <input type="date" class="form-control input-currency"
                                                     id="exampleInputPassword1">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label"> List
                                                     Price</label>
                                                 <input type="text" class="form-control input-currency"
                                                     id="exampleInputPassword1" placeholder="0.00">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label">Quantity
                                                 </label>
                                                 <input type="number" class="form-control" id="exampleInputPassword1"
                                                     placeholder="0">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label">Max Order Quantity
                                                 </label>
                                                 <input type="number" class="form-control" id="exampleInputPassword1"
                                                     placeholder="0">
                                             </div>
-
+                
                                             <div class="input-filed">
                                                 <label for="exampleInputPassword1" class="form-label">Is Gift Wrap Available?Is Gift Wrap Available?
-
+                
                                                 </label>
                                                 <input type="text" class="form-control" id="exampleInputPassword1"
                                                     placeholder="0">
                                             </div>
-
+                
                                             <button type="submit" class="btn btn-primary">Submit</button>
                                         </form>
                                     </div>
-
+                
                                 </div>
                                 <div class="tab-pane fade" id="nav-Images" role="tabpanel"
                                     aria-labelledby="nav-Images-tab">
@@ -538,7 +445,7 @@
                                                     <label for="exampleFormControlTextarea1"></label>
                                                 </div>
                                                 <div id="myForm">
-
+                
                                                 </div>
                                             </form>
                                           </div>
@@ -557,13 +464,13 @@
                                                 <input type="text" class="form-control" id="exampleInputEmail1"
                                                     placeholder="Item Name">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label">Brand Name</label>
                                                 <input type="text" class="form-control" id="exampleInputPassword1"
                                                     placeholder="Brand Name">
                                             </div>
-
+                
                                             <div class="input-filed d-flex">
                                                 <label for="exampleInputPassword1" class="form-label">model</label>
                                                 <input type="text" class="form-control" id="exampleInputPassword1"
@@ -3908,7 +3815,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
 
         </div>
@@ -3916,11 +3822,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.37.3/apexcharts.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
+ 
+    </script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> -->
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="assets/js/index.js"></script>
-    <script src="assets/js/style.js"></script>
 </body>
 
 </html>

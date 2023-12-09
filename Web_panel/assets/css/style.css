@@ -110,6 +110,8 @@ body{
 }
 .header-icon-second{
     padding: 0px 20px; 
+    display: flex;
+    align-items: center;
 }
 .icon-list-left{
     display: flex;

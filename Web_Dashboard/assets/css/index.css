@@ -251,7 +251,7 @@ a{
     width: calc(100% - 10px);
     margin-left: auto;x
 } */
-.tab_sidebar_main:hover ~.Dashboard_detail{
+.tab_sidebar_main_active ~.Dashboard_detail{
     /* width: calc(100% - 220px) !important;
     margin-left: auto !important; */
     padding-left: 150px;
@@ -699,7 +699,7 @@ form.example input[type=text] {
     margin-right: 10px;
   }
   #Poster_1, #payment_1, #Order_1, #Product_1, #Inventory_1, #Dashboard_1{
-    padding: 60px 30px;
+    padding: 60px 7px;
   }
   #Product_1 nav button{
     color: #223558;
